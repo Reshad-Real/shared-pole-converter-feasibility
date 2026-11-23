@@ -1,0 +1,1015 @@
+{
+ "rating": "r120",
+ "runs": [
+  {
+   "source": "nonideal",
+   "condition": "reference",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "reference",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "harm_peak",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "harm_peak",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "harm_flat",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "harm_flat",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "sag",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "sag",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "sag",
+   "run": "conventional_theta_b",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": false,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "f_low",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "f_low",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "f_high",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "f_high",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "jump_pos",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "jump_pos",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "jump_pos",
+   "run": "conventional_theta_b",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "pf_lead",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "pf_lead",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "td05",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "td05",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "td2",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "td2",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "tmin",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "tmin",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "adc12",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "adc12",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "gainV_lo",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "gainV_lo",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "gainV_hi",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "gainV_hi",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "corner_hi",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "corner_hi",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "corner_hi",
+   "run": "conventional_theta_b",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "fsw40_td025",
+   "run": "conventional_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "nonideal",
+   "condition": "fsw40_td025",
+   "run": "plan_theta_a",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 2,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 4,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 5,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 9,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 10,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 15,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 18,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 19,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 30,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 42,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 47,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 48,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 50,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 52,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 54,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 58,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 61,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 67,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 69,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 71,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 77,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 78,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 80,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 83,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 89,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 93,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 100,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 103,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 104,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 108,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 114,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 115,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 118,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 120,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 124,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 125,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 127,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 131,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 132,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 134,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 135,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 137,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 144,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 145,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 147,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 151,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 152,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 155,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 158,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 159,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 164,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 165,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 168,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 172,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 174,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 178,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 180,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 182,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 184,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 186,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 189,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 198,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 199,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 204,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 205,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 207,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 213,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 219,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 232,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 235,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 237,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 243,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 246,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 251,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 257,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 274,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 277,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 278,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 281,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 282,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 286,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 293,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 294,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 295,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  },
+  {
+   "source": "mc",
+   "index": 299,
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": true,
+   "circuit_outer": true
+  }
+ ],
+ "n_held": 120,
+ "n_reproduced": 120,
+ "n_checked": 120,
+ "contradictions_reduced": [
+  {
+   "source": "nonideal",
+   "condition": "sag",
+   "run": "conventional_theta_b",
+   "held": true,
+   "reproduced": true,
+   "reduced_outer": false,
+   "circuit_outer": true
+  }
+ ],
+ "contradictions_circuit": []
+}

@@ -1,0 +1,16 @@
+[
+ {
+  "rating": "r230",
+  "case": "plan_at_suff_circuit",
+  "cb": 0.0019674248992537003,
+  "phase_deg": 30.0,
+  "violation": true,
+  "t_violation_ms": 0.20000000000000226,
+  "bus_violation": true,
+  "current_violation": false,
+  "Vdc_min": 820.9355221975359,
+  "Vdc_max": 867.9362568128289,
+  "I_pole_peak": 48.61854212989536,
+  "plan_peak_iN": 66.92999999999999
+ }
+]

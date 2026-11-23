@@ -1,0 +1,118 @@
+{
+ "rating": "r230",
+ "td_us": 0.25,
+ "fsw_hz": 40000.0,
+ "runs": [
+  {
+   "condition": "fsw40_td025",
+   "run": "conventional_theta_a",
+   "theta_deg": 270.0,
+   "metrics": {
+    "Vdc_min": 783.9654481466534,
+    "Vdc_max": 813.5356620285093,
+    "Vdc_inst_min": 781.2067073942496,
+    "Vdc_inst_max": 815.8807747236565,
+    "I_pole_peak": 55.97523437316321,
+    "I_pole_peak_inst": 59.09492747293116,
+    "sat_time_ms": 0.17500000000000002,
+    "synth_time_ms": 0.0,
+    "duty_clamps": 15,
+    "min_vN_headroom_V": -2.4010352409119378,
+    "ac_current_rms_error_A": 0.14696860217939087,
+    "bus_violation": false,
+    "current_violation": false,
+    "current_violation_inst": false,
+    "synth_violation": false,
+    "t_violation_ms": null,
+    "pre_Vdc_min": 795.0643820448423,
+    "pre_Vdc_max": 807.255222826497,
+    "pre_step_violation": false,
+    "violation": false,
+    "state_at_step": {
+     "Eb0": 21.878649073288035,
+     "Ed0": 6.435145196345358,
+     "pd0": 4789.221935751216,
+     "vb": 405.73793671598656,
+     "V": 802.1935674352767,
+     "t_ms": 0.0
+    }
+   },
+   "outer_from_run_state": true,
+   "outer_from_orbit": true
+  },
+  {
+   "condition": "fsw40_td025",
+   "run": "plan_theta_a",
+   "theta_deg": 270.0,
+   "metrics": {
+    "Vdc_min": 784.6343249500704,
+    "Vdc_max": 813.0626073677125,
+    "Vdc_inst_min": 781.9426568838826,
+    "Vdc_inst_max": 815.360269786151,
+    "I_pole_peak": 55.97523437316321,
+    "I_pole_peak_inst": 59.09492747293116,
+    "sat_time_ms": 0.17500000000000002,
+    "synth_time_ms": 0.0,
+    "duty_clamps": 15,
+    "min_vN_headroom_V": -2.4010352409119378,
+    "ac_current_rms_error_A": 0.14687044891007825,
+    "bus_violation": false,
+    "current_violation": false,
+    "current_violation_inst": false,
+    "synth_violation": false,
+    "t_violation_ms": null,
+    "pre_Vdc_min": 795.0643820448423,
+    "pre_Vdc_max": 807.255222826497,
+    "pre_step_violation": false,
+    "violation": false,
+    "state_at_step": {
+     "Eb0": 21.878649073288035,
+     "Ed0": 6.435145196345358,
+     "pd0": 4789.221935751216,
+     "vb": 405.73793671598656,
+     "V": 802.1935674352767,
+     "t_ms": 0.0
+    }
+   },
+   "outer_from_run_state": true,
+   "outer_from_orbit": true
+  },
+  {
+   "condition": "fsw40_td025",
+   "run": "conventional_theta_b",
+   "theta_deg": 90.0,
+   "metrics": {
+    "Vdc_min": 480.550317988631,
+    "Vdc_max": 810.0181247845321,
+    "Vdc_inst_min": 472.44156037953695,
+    "Vdc_inst_max": 812.0044447158607,
+    "I_pole_peak": 54.185525220866396,
+    "I_pole_peak_inst": 57.82930522563562,
+    "sat_time_ms": 1.8500000000000016,
+    "synth_time_ms": 0.0,
+    "duty_clamps": 163,
+    "min_vN_headroom_V": -814.5622263177944,
+    "ac_current_rms_error_A": 0.18272173277557274,
+    "bus_violation": true,
+    "current_violation": false,
+    "current_violation_inst": false,
+    "synth_violation": false,
+    "t_violation_ms": 10.549999999999997,
+    "pre_Vdc_min": 795.0089836567934,
+    "pre_Vdc_max": 807.2726571268133,
+    "pre_step_violation": false,
+    "violation": true,
+    "state_at_step": {
+     "Eb0": 21.92287730036724,
+     "Ed0": 6.415334253413322,
+     "pd0": 4791.823738260047,
+     "vb": 406.1478342739875,
+     "V": 800.9578174544101,
+     "t_ms": 0.0
+    }
+   },
+   "outer_from_run_state": false,
+   "outer_from_orbit": false
+  }
+ ]
+}

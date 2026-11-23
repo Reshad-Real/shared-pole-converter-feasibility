@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this repository."
+title: "Phase-dependent transient feasibility and buffer sizing of a shared-pole four-port AC/DC converter with digital-twin validation: code, models and results"
+abstract: "Code, models and results for the article of the same title. In a converter whose energy buffer shares a switching pole with two AC ports, whether a load step can be survived depends on the AC phase at which it arrives. The repository holds the averaged and switched converter models, the linear-programming feasibility bounds, the Simscape Electrical cross-check, the reproduction of a published experiment, the digital-twin validation and the campaigns behind every figure and table, with their predeclared protocols and results. Code: MIT licence. Data, figures and documents: CC BY 4.0 (see DATA_LICENSE.md)."
+type: software
+authors:
+  - family-names: "Al Muttaki"
+    given-names: "Md. Reshad"
+    affiliation: "Department of Electrical and Electronic Engineering, BSRM School of Engineering, BRAC University, Dhaka, Bangladesh"
+  - family-names: "Rafid"
+    given-names: "Junayed"
+    affiliation: "Department of Electrical and Electronic Engineering, BSRM School of Engineering, BRAC University, Dhaka, Bangladesh"
+  - family-names: "Anil"
+    given-names: "Alvi Ibn Amzad"
+    affiliation: "Department of Electrical and Electronic Engineering, BSRM School of Engineering, BRAC University, Dhaka, Bangladesh"
+  - family-names: "Afrin"
+    given-names: "Sadia"
+    affiliation: "Department of Electrical and Electronic Engineering, BSRM School of Engineering, BRAC University, Dhaka, Bangladesh"
+  - family-names: "Hasan"
+    given-names: "Shameem"
+    affiliation: "Department of Electrical and Electronic Engineering, BSRM School of Engineering, BRAC University, Dhaka, Bangladesh"
+repository-code: "https://github.com/Reshad-Real/shared-pole-converter-feasibility"
+version: "1.0.1"
+date-released: "2026-11-23"
+# Zenodo accepts a single SPDX licence here; the data licence (CC BY 4.0) is in DATA_LICENSE.md.
+license: MIT
+keywords:
+  - multiport converter
+  - active power decoupling
+  - energy buffer
+  - transient feasibility
+  - linear programming
+  - capacitor sizing
+  - digital twin
+# preferred-citation: add the article once published

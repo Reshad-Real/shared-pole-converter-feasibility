@@ -1,0 +1,10 @@
+apd_off                   43 s  U mean 395.6 V
+rect_phi0_SVPWM           23 s  U mean 397.1 V
+rect_phi0_DPWM1           23 s  U mean 398.1 V
+rect_phi0_GDPWM           24 s  U mean 398.1 V
+rect_phi15_SVPWM          24 s  U mean 396.9 V
+rect_phi15_DPWM1          23 s  U mean 397.9 V
+rect_phi15_GDPWM          23 s  U mean 397.9 V
+rect_phi45_SVPWM          25 s  U mean 395.5 V
+rect_phi45_DPWM1          24 s  U mean 396.9 V
+rect_phi45_GDPWM          23 s  U mean 396.9 V

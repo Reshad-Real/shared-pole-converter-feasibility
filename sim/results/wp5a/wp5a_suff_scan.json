@@ -1,0 +1,122 @@
+[
+ {
+  "rating": "r120",
+  "k": 1.0,
+  "cb": 0.0016934187756308785,
+  "plan_peak_iN": 66.94984986336362,
+  "violation": true,
+  "t_violation_ms": 11.433333333333334,
+  "bus_violation": true,
+  "current_violation": false,
+  "I_pole_peak": 64.35195272818741,
+  "I_pole_max": 66.0
+ },
+ {
+  "rating": "r120",
+  "k": 1.25,
+  "cb": 0.002116773469538598,
+  "plan_peak_iN": 67.70345251653237,
+  "violation": false,
+  "t_violation_ms": null,
+  "bus_violation": false,
+  "current_violation": false,
+  "I_pole_peak": 64.92649293967054,
+  "I_pole_max": 66.0
+ },
+ {
+  "rating": "r120",
+  "k": 1.5,
+  "cb": 0.0025401281634463177,
+  "plan_peak_iN": 68.03241527985739,
+  "violation": false,
+  "t_violation_ms": null,
+  "bus_violation": false,
+  "current_violation": false,
+  "I_pole_peak": 65.24245592822291,
+  "I_pole_max": 66.0
+ },
+ {
+  "rating": "r120",
+  "k": 2.0,
+  "cb": 0.003386837551261757,
+  "plan_peak_iN": 67.66976890372563,
+  "violation": false,
+  "t_violation_ms": null,
+  "bus_violation": false,
+  "current_violation": false,
+  "I_pole_peak": 64.88632754074952,
+  "I_pole_max": 66.0
+ },
+ {
+  "rating": "r120",
+  "k": 3.0,
+  "cb": 0.005080256326892635,
+  "plan_peak_iN": 68.25887881483052,
+  "violation": false,
+  "t_violation_ms": null,
+  "bus_violation": false,
+  "current_violation": false,
+  "I_pole_peak": 65.79624049108911,
+  "I_pole_max": 66.0
+ },
+ {
+  "rating": "r230",
+  "k": 1.0,
+  "cb": 0.0011221565096695746,
+  "plan_peak_iN": 70.06819150527862,
+  "violation": true,
+  "t_violation_ms": 3.0500000000000007,
+  "bus_violation": false,
+  "current_violation": true,
+  "I_pole_peak": 69.43669079985688,
+  "I_pole_max": 69.0
+ },
+ {
+  "rating": "r230",
+  "k": 1.25,
+  "cb": 0.0014026956370869683,
+  "plan_peak_iN": 70.89548143254247,
+  "violation": true,
+  "t_violation_ms": 2.9,
+  "bus_violation": false,
+  "current_violation": true,
+  "I_pole_peak": 70.13272532841184,
+  "I_pole_max": 69.0
+ },
+ {
+  "rating": "r230",
+  "k": 1.5,
+  "cb": 0.0016832347645043618,
+  "plan_peak_iN": 71.17740340884536,
+  "violation": true,
+  "t_violation_ms": 2.850000000000002,
+  "bus_violation": false,
+  "current_violation": true,
+  "I_pole_peak": 70.35534771402949,
+  "I_pole_max": 69.0
+ },
+ {
+  "rating": "r230",
+  "k": 2.0,
+  "cb": 0.002244313019339149,
+  "plan_peak_iN": 70.79050259575666,
+  "violation": true,
+  "t_violation_ms": 2.9,
+  "bus_violation": false,
+  "current_violation": true,
+  "I_pole_peak": 69.93294116986159,
+  "I_pole_max": 69.0
+ },
+ {
+  "rating": "r230",
+  "k": 3.0,
+  "cb": 0.0033664695290087235,
+  "plan_peak_iN": 71.54573145236628,
+  "violation": true,
+  "t_violation_ms": 2.999999999999999,
+  "bus_violation": false,
+  "current_violation": true,
+  "I_pole_peak": 69.53522501382903,
+  "I_pole_max": 69.0
+ }
+]

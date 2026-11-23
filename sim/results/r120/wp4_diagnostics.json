@@ -1,0 +1,230 @@
+{
+ "rating": "r120",
+ "per_plant": [
+  {
+   "plant": "Cb-20 Cdc-20 E-10 slew-30",
+   "phase_deg": 189.0,
+   "conventional_W": 829.6188354492188,
+   "outer_W": 553.0792236328125,
+   "over_W": 276.53961181640625,
+   "over_pct": 33.333333333333336
+  },
+  {
+   "plant": "Cb-20 Cdc-20 E-10 slew+30",
+   "phase_deg": 243.0,
+   "conventional_W": 1154.0210723876953,
+   "outer_W": 765.802001953125,
+   "over_W": 388.2190704345703,
+   "over_pct": 33.64055299539171
+  },
+  {
+   "plant": "Cb-20 Cdc-20 E+10 slew-30",
+   "phase_deg": 216.0,
+   "conventional_W": 616.8960571289062,
+   "outer_W": 233.99505615234375,
+   "over_W": 382.9010009765625,
+   "over_pct": 62.06896551724138
+  },
+  {
+   "plant": "Cb-20 Cdc-20 E+10 slew+30",
+   "phase_deg": 225.0,
+   "conventional_W": 616.8960571289062,
+   "outer_W": 308.4480285644531,
+   "over_W": 308.4480285644531,
+   "over_pct": 50.0
+  },
+  {
+   "plant": "Cb-20 Cdc+20 E-10 slew-30",
+   "phase_deg": 162.0,
+   "conventional_W": 925.3440856933594,
+   "outer_W": 648.8044738769531,
+   "over_W": 276.53961181640625,
+   "over_pct": 29.885057471264368
+  },
+  {
+   "plant": "Cb-20 Cdc+20 E-10 slew+30",
+   "phase_deg": 243.0,
+   "conventional_W": 1164.657211303711,
+   "outer_W": 787.0742797851562,
+   "over_W": 377.5829315185547,
+   "over_pct": 32.42009132420091
+  },
+  {
+   "plant": "Cb-20 Cdc+20 E+10 slew-30",
+   "phase_deg": 216.0,
+   "conventional_W": 616.8960571289062,
+   "outer_W": 249.9492645263672,
+   "over_W": 366.94679260253906,
+   "over_pct": 59.48275862068966
+  },
+  {
+   "plant": "Cb-20 Cdc+20 E+10 slew+30",
+   "phase_deg": 225.0,
+   "conventional_W": 616.8960571289062,
+   "outer_W": 329.7203063964844,
+   "over_W": 287.1757507324219,
+   "over_pct": 46.55172413793103
+  },
+  {
+   "plant": "Cb+20 Cdc-20 E-10 slew-30",
+   "phase_deg": 90.0,
+   "conventional_W": 1191.24755859375,
+   "outer_W": 882.7995300292969,
+   "over_W": 308.4480285644531,
+   "over_pct": 25.892857142857142
+  },
+  {
+   "plant": "Cb+20 Cdc-20 E-10 slew+30",
+   "phase_deg": 207.0,
+   "conventional_W": 1425.2426147460938,
+   "outer_W": 994.4789886474609,
+   "over_W": 430.7636260986328,
+   "over_pct": 30.223880597014926
+  },
+  {
+   "plant": "Cb+20 Cdc-20 E+10 slew-30",
+   "phase_deg": 99.0,
+   "conventional_W": 1185.9294891357422,
+   "outer_W": 600.9418487548828,
+   "over_W": 584.9876403808594,
+   "over_pct": 49.327354260089685
+  },
+  {
+   "plant": "Cb+20 Cdc-20 E+10 slew+30",
+   "phase_deg": 216.0,
+   "conventional_W": 1372.0619201660156,
+   "outer_W": 526.4888763427734,
+   "over_W": 845.5730438232422,
+   "over_pct": 61.627906976744185
+  },
+  {
+   "plant": "Cb+20 Cdc+20 E-10 slew-30",
+   "phase_deg": 90.0,
+   "conventional_W": 1201.8836975097656,
+   "outer_W": 893.4356689453125,
+   "over_W": 308.4480285644531,
+   "over_pct": 25.663716814159294
+  },
+  {
+   "plant": "Cb+20 Cdc+20 E-10 slew+30",
+   "phase_deg": 189.0,
+   "conventional_W": 1467.7871704101562,
+   "outer_W": 1042.3416137695312,
+   "over_W": 425.445556640625,
+   "over_pct": 28.985507246376812
+  },
+  {
+   "plant": "Cb+20 Cdc+20 E+10 slew-30",
+   "phase_deg": 99.0,
+   "conventional_W": 1196.5656280517578,
+   "outer_W": 616.8960571289062,
+   "over_W": 579.6695709228516,
+   "over_pct": 48.44444444444444
+  },
+  {
+   "plant": "Cb+20 Cdc+20 E+10 slew+30",
+   "phase_deg": 216.0,
+   "conventional_W": 1377.3799896240234,
+   "outer_W": 547.7611541748047,
+   "over_W": 829.6188354492188,
+   "over_pct": 60.23166023166023
+  }
+ ],
+ "per_plant_min_over_pct": 25.663716814159294,
+ "oat_phase_deg": 207.0,
+ "oat_nominal_outer_W": 600.9418487548828,
+ "oat": [
+  {
+   "change": "Cb-20",
+   "outer_W": 457.3539733886719,
+   "delta_W": -143.58787536621094
+  },
+  {
+   "change": "Cb+20",
+   "outer_W": 739.2116546630859,
+   "delta_W": 138.26980590820312
+  },
+  {
+   "change": "Cdc-20",
+   "outer_W": 590.3057098388672,
+   "delta_W": -10.636138916015625
+  },
+  {
+   "change": "Cdc+20",
+   "outer_W": 606.2599182128906,
+   "delta_W": 5.3180694580078125
+  },
+  {
+   "change": "E-10",
+   "outer_W": 776.4381408691406,
+   "delta_W": 175.4962921142578
+  },
+  {
+   "change": "E+10",
+   "outer_W": 398.85520935058594,
+   "delta_W": -202.08663940429688
+  },
+  {
+   "change": "slew-30",
+   "outer_W": 547.7611541748047,
+   "delta_W": -53.180694580078125
+  },
+  {
+   "change": "slew+30",
+   "outer_W": 648.8044738769531,
+   "delta_W": 47.86262512207031
+  },
+  {
+   "change": "L1-10",
+   "outer_W": 595.623779296875,
+   "delta_W": -5.3180694580078125
+  },
+  {
+   "change": "L1+10",
+   "outer_W": 600.9418487548828,
+   "delta_W": 0.0
+  },
+  {
+   "change": "L2-10",
+   "outer_W": 600.9418487548828,
+   "delta_W": 0.0
+  },
+  {
+   "change": "L2+10",
+   "outer_W": 595.623779296875,
+   "delta_W": -5.3180694580078125
+  },
+  {
+   "change": "Lb-10",
+   "outer_W": 600.9418487548828,
+   "delta_W": 0.0
+  },
+  {
+   "change": "Lb+10",
+   "outer_W": 600.9418487548828,
+   "delta_W": 0.0
+  },
+  {
+   "change": "Rb-50",
+   "outer_W": 600.9418487548828,
+   "delta_W": 0.0
+  },
+  {
+   "change": "Rb+100",
+   "outer_W": 600.9418487548828,
+   "delta_W": 0.0
+  }
+ ],
+ "r4": [
+  {
+   "condition": "sag",
+   "run": "conventional_theta_b",
+   "relaxation_needed_V": 11.09375,
+   "vb_outside_band_max_V": 12.664037836362255,
+   "vN_outside_reference_band_max_V": 6.348482139717447,
+   "sat_time_ms": 0.05,
+   "ac_current_rms_error_A": 0.49397603004553536
+  }
+ ],
+ "theta_b_relaxation_nominal_V": 32.4664306640625
+}

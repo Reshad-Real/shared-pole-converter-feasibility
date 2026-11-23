@@ -1,0 +1,34 @@
+[
+ {
+  "case": "conventional_at_conv",
+  "rating": "r120",
+  "cb": 0.0007238086112504022,
+  "phase_deg": 30.0,
+  "violation": true,
+  "t_violation_ms": 2.483333333333334
+ },
+ {
+  "case": "conventional_at_0.95nec",
+  "rating": "r120",
+  "cb": 0.0011875503676651651,
+  "phase_deg": 30.0,
+  "violation": true,
+  "t_violation_ms": 10.833333333333334
+ },
+ {
+  "case": "conventional_at_conv",
+  "rating": "r230",
+  "cb": 0.00047963714384053686,
+  "phase_deg": 30.0,
+  "violation": true,
+  "t_violation_ms": 2.700000000000001
+ },
+ {
+  "case": "conventional_at_0.95nec",
+  "rating": "r230",
+  "cb": 0.0007922655800951421,
+  "phase_deg": 30.0,
+  "violation": true,
+  "t_violation_ms": 2.850000000000002
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "rating": "r120",
+ "reduced_relaxation_V": 32.4664306640625,
+ "by_Lb": [
+  {
+   "Lb_H": 2e-05,
+   "relaxation_V": 33.69140625
+  },
+  {
+   "Lb_H": 0.0001,
+   "relaxation_V": 31.93359375
+  },
+  {
+   "Lb_H": 0.001,
+   "relaxation_V": 17.6953125
+  }
+ ],
+ "nominal_Lb_24_16_cuts_V": 18.33984375
+}

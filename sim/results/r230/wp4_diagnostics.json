@@ -1,0 +1,239 @@
+{
+ "rating": "r230",
+ "per_plant": [
+  {
+   "plant": "Cb-20 Cdc-20 E-10 slew-30",
+   "phase_deg": 153.0,
+   "conventional_W": 1938.6646270751953,
+   "outer_W": 1345.4120635986328,
+   "over_W": 593.2525634765625,
+   "over_pct": 30.601092896174862
+  },
+  {
+   "plant": "Cb-20 Cdc-20 E-10 slew+30",
+   "phase_deg": 243.0,
+   "conventional_W": 2320.041275024414,
+   "outer_W": 1504.3190002441406,
+   "over_W": 815.7222747802734,
+   "over_pct": 35.15981735159817
+  },
+  {
+   "plant": "Cb-20 Cdc-20 E+10 slew-30",
+   "phase_deg": 216.0,
+   "conventional_W": 1101.7547607421875,
+   "outer_W": 423.7518310546875,
+   "over_W": 678.0029296875,
+   "over_pct": 61.53846153846154
+  },
+  {
+   "plant": "Cb-20 Cdc-20 E+10 slew+30",
+   "phase_deg": 234.0,
+   "conventional_W": 1101.7547607421875,
+   "outer_W": 561.4711761474609,
+   "over_W": 540.2835845947266,
+   "over_pct": 49.03846153846154
+  },
+  {
+   "plant": "Cb-20 Cdc+20 E-10 slew-30",
+   "phase_deg": 144.0,
+   "conventional_W": 2002.2274017333984,
+   "outer_W": 1419.5686340332031,
+   "over_W": 582.6587677001953,
+   "over_pct": 29.1005291005291
+  },
+  {
+   "plant": "Cb-20 Cdc+20 E-10 slew+30",
+   "phase_deg": 243.0,
+   "conventional_W": 2341.2288665771484,
+   "outer_W": 1557.2879791259766,
+   "over_W": 783.9408874511719,
+   "over_pct": 33.484162895927604
+  },
+  {
+   "plant": "Cb-20 Cdc+20 E+10 slew-30",
+   "phase_deg": 216.0,
+   "conventional_W": 1101.7547607421875,
+   "outer_W": 466.12701416015625,
+   "over_W": 635.6277465820312,
+   "over_pct": 57.69230769230769
+  },
+  {
+   "plant": "Cb-20 Cdc+20 E+10 slew+30",
+   "phase_deg": 234.0,
+   "conventional_W": 1101.7547607421875,
+   "outer_W": 603.8463592529297,
+   "over_W": 497.9084014892578,
+   "over_pct": 45.19230769230769
+  },
+  {
+   "plant": "Cb+20 Cdc-20 E-10 slew-30",
+   "phase_deg": 90.0,
+   "conventional_W": 2415.3854370117188,
+   "outer_W": 1747.976303100586,
+   "over_W": 667.4091339111328,
+   "over_pct": 27.63157894736842
+  },
+  {
+   "plant": "Cb+20 Cdc-20 E-10 slew+30",
+   "phase_deg": 198.0,
+   "conventional_W": 2945.075225830078,
+   "outer_W": 2012.8211975097656,
+   "over_W": 932.2540283203125,
+   "over_pct": 31.654676258992804
+  },
+  {
+   "plant": "Cb+20 Cdc-20 E+10 slew-30",
+   "phase_deg": 99.0,
+   "conventional_W": 2404.7916412353516,
+   "outer_W": 1154.7237396240234,
+   "over_W": 1250.0679016113281,
+   "over_pct": 51.98237885462555
+  },
+  {
+   "plant": "Cb+20 Cdc-20 E+10 slew+30",
+   "phase_deg": 216.0,
+   "conventional_W": 2775.574493408203,
+   "outer_W": 985.2230072021484,
+   "over_W": 1790.3514862060547,
+   "over_pct": 64.50381679389314
+  },
+  {
+   "plant": "Cb+20 Cdc+20 E-10 slew-30",
+   "phase_deg": 90.0,
+   "conventional_W": 2436.573028564453,
+   "outer_W": 1769.1638946533203,
+   "over_W": 667.4091339111328,
+   "over_pct": 27.391304347826086
+  },
+  {
+   "plant": "Cb+20 Cdc+20 E-10 slew+30",
+   "phase_deg": 198.0,
+   "conventional_W": 2966.2628173828125,
+   "outer_W": 2044.6025848388672,
+   "over_W": 921.6602325439453,
+   "over_pct": 31.071428571428573
+  },
+  {
+   "plant": "Cb+20 Cdc+20 E+10 slew-30",
+   "phase_deg": 99.0,
+   "conventional_W": 2415.3854370117188,
+   "outer_W": 1175.9113311767578,
+   "over_W": 1239.474105834961,
+   "over_pct": 51.31578947368421
+  },
+  {
+   "plant": "Cb+20 Cdc+20 E+10 slew+30",
+   "phase_deg": 207.0,
+   "conventional_W": 2817.949676513672,
+   "outer_W": 1048.7857818603516,
+   "over_W": 1769.1638946533203,
+   "over_pct": 62.78195488721804
+  }
+ ],
+ "per_plant_min_over_pct": 27.391304347826086,
+ "oat_phase_deg": 198.0,
+ "oat_nominal_outer_W": 1207.6927185058594,
+ "oat": [
+  {
+   "change": "Cb-20",
+   "outer_W": 942.8478240966797,
+   "delta_W": -264.8448944091797
+  },
+  {
+   "change": "Cb+20",
+   "outer_W": 1472.537612915039,
+   "delta_W": 264.8448944091797
+  },
+  {
+   "change": "Cdc-20",
+   "outer_W": 1186.505126953125,
+   "delta_W": -21.187591552734375
+  },
+  {
+   "change": "Cdc+20",
+   "outer_W": 1218.2865142822266,
+   "delta_W": 10.593795776367188
+  },
+  {
+   "change": "E-10",
+   "outer_W": 1578.475570678711,
+   "delta_W": 370.78285217285156
+  },
+  {
+   "change": "E+10",
+   "outer_W": 794.5346832275391,
+   "delta_W": -413.1580352783203
+  },
+  {
+   "change": "slew-30",
+   "outer_W": 1091.1609649658203,
+   "delta_W": -116.53175354003906
+  },
+  {
+   "change": "slew+30",
+   "outer_W": 1324.2244720458984,
+   "delta_W": 116.53175354003906
+  },
+  {
+   "change": "L1-10",
+   "outer_W": 1207.6927185058594,
+   "delta_W": 0.0
+  },
+  {
+   "change": "L1+10",
+   "outer_W": 1207.6927185058594,
+   "delta_W": 0.0
+  },
+  {
+   "change": "L2-10",
+   "outer_W": 1207.6927185058594,
+   "delta_W": 0.0
+  },
+  {
+   "change": "L2+10",
+   "outer_W": 1207.6927185058594,
+   "delta_W": 0.0
+  },
+  {
+   "change": "Lb-10",
+   "outer_W": 1207.6927185058594,
+   "delta_W": 0.0
+  },
+  {
+   "change": "Lb+10",
+   "outer_W": 1207.6927185058594,
+   "delta_W": 0.0
+  },
+  {
+   "change": "Rb-50",
+   "outer_W": 1207.6927185058594,
+   "delta_W": 0.0
+  },
+  {
+   "change": "Rb+100",
+   "outer_W": 1207.6927185058594,
+   "delta_W": 0.0
+  }
+ ],
+ "r4": [
+  {
+   "condition": "sag",
+   "run": "conventional_theta_b",
+   "relaxation_needed_V": 18.8671875,
+   "vb_outside_band_max_V": 30.014165130382622,
+   "vN_outside_reference_band_max_V": 9.891858855016949,
+   "sat_time_ms": 1.5499999999999994,
+   "ac_current_rms_error_A": 0.21123020824851568
+  },
+  {
+   "condition": "jump_pos",
+   "run": "conventional_theta_b",
+   "relaxation_needed_V": 1.015625,
+   "vb_outside_band_max_V": 13.308563293489271,
+   "vN_outside_reference_band_max_V": 2.5628409185807755,
+   "sat_time_ms": 0.0,
+   "ac_current_rms_error_A": 0.22162201861693293
+  }
+ ],
+ "theta_b_relaxation_nominal_V": 58.4765625
+}

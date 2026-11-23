@@ -1,0 +1,1505 @@
+{
+ "rating": "r120",
+ "cases": [
+  {
+   "index": 0,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 1,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 2,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 3,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 4,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 5,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 6,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 7,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 8,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 9,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 10,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 11,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 12,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 13,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 14,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 15,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 16,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 17,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 18,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 19,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 20,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 21,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 22,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 23,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 24,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 25,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 26,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 27,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 28,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 29,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 30,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 31,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 32,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 33,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 34,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 35,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 36,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 37,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 38,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 39,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 40,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 41,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 42,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 43,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 44,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 45,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 46,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 47,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 48,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 49,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 50,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 51,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 52,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 53,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 54,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 55,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 56,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 57,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 58,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 59,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 60,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 61,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 62,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 63,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 64,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 65,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 66,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 67,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 68,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 69,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 70,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 71,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 72,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 73,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 74,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 75,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 76,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 77,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 78,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 79,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 80,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 81,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 82,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 83,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 84,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 85,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 86,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 87,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 88,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 89,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 90,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 91,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 92,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 93,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 94,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 95,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 96,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 97,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 98,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 99,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 100,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 101,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 102,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 103,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 104,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 105,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 106,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 107,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 108,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 109,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 110,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 111,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 112,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 113,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 114,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 115,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 116,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 117,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 118,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 119,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 120,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 121,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 122,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 123,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 124,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 125,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 126,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 127,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 128,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 129,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 130,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 131,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 132,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 133,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 134,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 135,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 136,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 137,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 138,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 139,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 140,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 141,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 142,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 143,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 144,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 145,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 146,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 147,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 148,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 149,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 150,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 151,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 152,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 153,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 154,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 155,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 156,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 157,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 158,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 159,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 160,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 161,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 162,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 163,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 164,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 165,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 166,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 167,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 168,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 169,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 170,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 171,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 172,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 173,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 174,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 175,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 176,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 177,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 178,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 179,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 180,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 181,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 182,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 183,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 184,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 185,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 186,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 187,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 188,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 189,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 190,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 191,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 192,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 193,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 194,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 195,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 196,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 197,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 198,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 199,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 200,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 201,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 202,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 203,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 204,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 205,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 206,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 207,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 208,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 209,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 210,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 211,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 212,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 213,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 214,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 215,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 216,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 217,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 218,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 219,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 220,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 221,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 222,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 223,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 224,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 225,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 226,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 227,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 228,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 229,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 230,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 231,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 232,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 233,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 234,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 235,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 236,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 237,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 238,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 239,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 240,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 241,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 242,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 243,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 244,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 245,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 246,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 247,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 248,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 249,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 250,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 251,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 252,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 253,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 254,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 255,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 256,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 257,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 258,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 259,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 260,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 261,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 262,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 263,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 264,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 265,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 266,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 267,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 268,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 269,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 270,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 271,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 272,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 273,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 274,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 275,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 276,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 277,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 278,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 279,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 280,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 281,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 282,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 283,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 284,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 285,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 286,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 287,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 288,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 289,
+   "plant_circuit_outer": true,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 290,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 291,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 292,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 293,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 294,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 295,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  },
+  {
+   "index": 296,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 297,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 298,
+   "plant_circuit_outer": false,
+   "nominal_circuit_outer": false
+  },
+  {
+   "index": 299,
+   "plant_circuit_outer": null,
+   "nominal_circuit_outer": true
+  }
+ ]
+}

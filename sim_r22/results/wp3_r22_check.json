@@ -1,0 +1,379 @@
+{
+  "results": [
+    {
+      "target": "T3 DC ripple, decoupling off (V p-p)",
+      "measured": 123.38310933439568,
+      "uncertainty": 16.399471417298823,
+      "tolerance": 28.737782350738392,
+      "models": {
+        "Python switched": {
+          "value": 116.3231064416604,
+          "passed": 1.0
+        },
+        "Simscape": {
+          "value": 116.66351503890837,
+          "passed": 1.0
+        }
+      }
+    },
+    {
+      "target": "T5 u_cac amplitude, GDPWM (V)",
+      "measured": 324.93629593782947,
+      "uncertainty": 83.85824315890837,
+      "tolerance": 116.35187275269132,
+      "models": {
+        "Python switched": {
+          "value": 320.4227834229462,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 320.64339127267147,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T5 u_cac phase vs u_ac, GDPWM (deg)",
+      "measured": -46.53077716202786,
+      "uncertainty": 2.2813688212927756,
+      "tolerance": 6.934446537495562,
+      "models": {
+        "Python switched": {
+          "value": -46.07409317420189,
+          "passed": true
+        },
+        "Simscape": {
+          "value": -46.09109562712672,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T6 i_a amplitude, GDPWM (A)",
+      "measured": 13.97088405263447,
+      "uncertainty": 3.48266650982543,
+      "tolerance": 4.879754915088877,
+      "models": {
+        "Python switched": {
+          "value": 13.06963546158348,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 13.099782994321385,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T6 i_b amplitude, GDPWM (A)",
+      "measured": 9.884081334381408,
+      "uncertainty": 2.9438646216343773,
+      "tolerance": 3.932272755072518,
+      "models": {
+        "Python switched": {
+          "value": 9.590241274267806,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 9.589055524478413,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T6 i_c amplitude, GDPWM (A)",
+      "measured": 13.067082513695125,
+      "uncertainty": 3.363509797524265,
+      "tolerance": 4.670218048893777,
+      "models": {
+        "Python switched": {
+          "value": 13.090050656263596,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 13.102875919002374,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T5 u_cac amplitude, DPWM1 (V)",
+      "measured": 326.7458467327588,
+      "uncertainty": 84.47688814221202,
+      "tolerance": 117.15147281548789,
+      "models": {
+        "Python switched": {
+          "value": 320.0911567635947,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 320.3056180917404,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T5 u_cac phase vs u_ac, DPWM1 (deg)",
+      "measured": -46.95728494486971,
+      "uncertainty": 2.2813688212927756,
+      "tolerance": 6.977097315779747,
+      "models": {
+        "Python switched": {
+          "value": -46.14360491476762,
+          "passed": true
+        },
+        "Simscape": {
+          "value": -46.16017271587077,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T6 i_a amplitude, DPWM1 (A)",
+      "measured": 13.933149135750664,
+      "uncertainty": 3.493408953469907,
+      "tolerance": 4.8867238670449735,
+      "models": {
+        "Python switched": {
+          "value": 13.074100863837716,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 13.10436014587597,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T6 i_b amplitude, DPWM1 (A)",
+      "measured": 9.712278350287344,
+      "uncertainty": 2.9344166086289087,
+      "tolerance": 3.905644443657643,
+      "models": {
+        "Python switched": {
+          "value": 9.494076633925413,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 9.492109640096741,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T6 i_c amplitude, DPWM1 (A)",
+      "measured": 13.043304085305556,
+      "uncertainty": 3.375562045432217,
+      "tolerance": 4.679892453962773,
+      "models": {
+        "Python switched": {
+          "value": 13.06759112879796,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 13.077567268891519,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T4 DC ripple with decoupling, GDPWM (V p-p, upper bound)",
+      "measured": 14.356585391747378,
+      "uncertainty": 0.0,
+      "tolerance": null,
+      "models": {
+        "Python switched": {
+          "value": 5.416119573960032,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 5.79121266838456,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T4 DC ripple with decoupling, DPWM1 (V p-p, upper bound)",
+      "measured": 16.48167982522331,
+      "uncertainty": 0.0,
+      "tolerance": null,
+      "models": {
+        "Python switched": {
+          "value": 6.027331310283614,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 6.156175297178379,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T7 S_a clamp per half cycle, GDPWM (ms)",
+      "measured": 3.659695817490494,
+      "uncertainty": 0.2534854245880862,
+      "tolerance": 1.0,
+      "models": {
+        "Python switched": {
+          "value": 3.6625,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 3.662499999999999,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T7 S_a clamp per half cycle, DPWM1 (ms)",
+      "measured": 2.7791878172588835,
+      "uncertainty": 0.25380710659898476,
+      "tolerance": 1.0,
+      "models": {
+        "Python switched": {
+          "value": 2.7500000000000004,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 2.7500000000000004,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T1 THD of i_a, SVPWM (%)",
+      "measured": 2.19,
+      "uncertainty": 0.0,
+      "tolerance": 1.5,
+      "models": {
+        "Python switched": {
+          "value": 0.865786287384447,
+          "passed": true
+        },
+        "Simscape": {
+          "value": 1.1244005107138788,
+          "passed": true
+        }
+      }
+    },
+    {
+      "target": "T1 THD of i_a, DPWM1 (%)",
+      "measured": 2.92,
+      "uncertainty": 0.0,
+      "tolerance": 1.5,
+      "models": {
+        "Python switched": {
+          "value": 1.0666745392497583,
+          "passed": false
+        },
+        "Simscape": {
+          "value": 1.2989748142420035,
+          "passed": false
+        }
+      }
+    },
+    {
+      "target": "T1 THD of i_a, GDPWM (%)",
+      "measured": 2.74,
+      "uncertainty": 0.0,
+      "tolerance": 1.5,
+      "models": {
+        "Python switched": {
+          "value": 0.8035807801333809,
+          "passed": false
+        },
+        "Simscape": {
+          "value": 1.1230073030935932,
+          "passed": false
+        }
+      }
+    }
+  ],
+  "clamp_order": {
+    "Python switched": true,
+    "Simscape": true
+  },
+  "thd_order": {
+    "Python switched": false,
+    "Simscape": false
+  },
+  "T2": {
+    "rect_phi0_SVPWM": {
+      "measured": 2.19,
+      "Python switched": 0.865786287384447,
+      "Simscape": 1.1244005107138788
+    },
+    "rect_phi0_DPWM1": {
+      "measured": 2.92,
+      "Python switched": 1.0666745392497583,
+      "Simscape": 1.2989748142420035
+    },
+    "rect_phi0_GDPWM": {
+      "measured": 2.74,
+      "Python switched": 0.8035807801333809,
+      "Simscape": 1.1230073030935932
+    },
+    "rect_phi15_SVPWM": {
+      "measured": 2.05,
+      "Python switched": 0.839979424539899,
+      "Simscape": 1.063217363769689
+    },
+    "rect_phi15_DPWM1": {
+      "measured": 3.12,
+      "Python switched": 0.9757655689163527,
+      "Simscape": 0.9801815914441152
+    },
+    "rect_phi15_GDPWM": {
+      "measured": 2.96,
+      "Python switched": 0.7375871922210567,
+      "Simscape": 0.9310606778260457
+    },
+    "rect_phi45_SVPWM": {
+      "measured": 1.95,
+      "Python switched": 0.834135362121563,
+      "Simscape": 0.9036422389703443
+    },
+    "rect_phi45_DPWM1": {
+      "measured": 3.38,
+      "Python switched": 1.1382834118741203,
+      "Simscape": 1.150518830793168
+    },
+    "rect_phi45_GDPWM": {
+      "measured": 2.52,
+      "Python switched": 0.5952968835422893,
+      "Simscape": 0.6706192815494625
+    },
+    "statcom_5A_SVPWM": {
+      "measured": 2.58,
+      "Python switched": 0.9772719981191722
+    },
+    "statcom_5A_DPWM1": {
+      "measured": 4.07,
+      "Python switched": 1.5865682822346736
+    },
+    "statcom_5A_GDPWM": {
+      "measured": 3.94,
+      "Python switched": 0.8212143949202918
+    },
+    "statcom_10A_SVPWM": {
+      "measured": 1.26,
+      "Python switched": 0.7232147065072109
+    },
+    "statcom_10A_DPWM1": {
+      "measured": 3.31,
+      "Python switched": 0.7056783417113702
+    },
+    "statcom_10A_GDPWM": {
+      "measured": 2.96,
+      "Python switched": 0.9233244689382434
+    }
+  },
+  "thd_dead_time_python": {
+    "SVPWM td 100 ns": 0.43307022575148213,
+    "SVPWM td 300 ns": 1.293399871035027,
+    "DPWM1 td 100 ns": 0.5316561716243023,
+    "DPWM1 td 300 ns": 1.6023815880112269,
+    "GDPWM td 100 ns": 0.40304118293794816,
+    "GDPWM td 300 ns": 1.194312008840302
+  }
+}

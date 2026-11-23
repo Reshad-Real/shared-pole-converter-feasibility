@@ -1,0 +1,808 @@
+{
+ "summary": {
+  "r120": {
+   "R1": false,
+   "R2": false,
+   "R3": false,
+   "R4": false,
+   "R6": false,
+   "R6_failed": [
+    "jump_pos",
+    "corner_hi"
+   ],
+   "R6_outside_envelope": [
+    "fsw10"
+   ]
+  },
+  "r230": {
+   "R1": false,
+   "R2": false,
+   "R3": false,
+   "R4": false,
+   "R6": false,
+   "R6_failed": [
+    "corner_hi"
+   ],
+   "R6_outside_envelope": []
+  }
+ },
+ "misclassification": {
+  "r120": {
+   "counts": {
+    "feasible": 85,
+    "infeasible": 210,
+    "unresolved": 5
+   },
+   "errors": 0,
+   "rows": {
+    "energy_sizing": {
+     "false_feasible": 43,
+     "false_infeasible": 0,
+     "ff_rate": 0.20476190476190476,
+     "fi_rate": 0.0,
+     "admitted_resolved": 128,
+     "infeasible_share_of_admitted": 0.3359375
+    },
+    "instantaneous": {
+     "false_feasible": 156,
+     "false_infeasible": 0,
+     "ff_rate": 0.7428571428571429,
+     "fi_rate": 0.0,
+     "admitted_resolved": 241,
+     "infeasible_share_of_admitted": 0.6473029045643154
+    },
+    "static_derating": {
+     "false_feasible": 0,
+     "false_infeasible": 32,
+     "ff_rate": 0.0,
+     "fi_rate": 0.3764705882352941,
+     "admitted_resolved": 53,
+     "infeasible_share_of_admitted": 0.0
+    },
+    "nominal_inner": {
+     "false_feasible": 5,
+     "false_infeasible": 4,
+     "ff_rate": 0.023809523809523808,
+     "fi_rate": 0.047058823529411764,
+     "admitted_resolved": 86,
+     "infeasible_share_of_admitted": 0.05813953488372093
+    },
+    "nominal_outer": {
+     "false_feasible": 6,
+     "false_infeasible": 2,
+     "ff_rate": 0.02857142857142857,
+     "fi_rate": 0.023529411764705882,
+     "admitted_resolved": 89,
+     "infeasible_share_of_admitted": 0.06741573033707865
+    },
+    "robust_inner": {
+     "false_feasible": 0,
+     "false_infeasible": 40,
+     "ff_rate": 0.0,
+     "fi_rate": 0.47058823529411764,
+     "admitted_resolved": 45,
+     "infeasible_share_of_admitted": 0.0
+    },
+    "robust_outer": {
+     "false_feasible": 45,
+     "false_infeasible": 0,
+     "ff_rate": 0.21428571428571427,
+     "fi_rate": 0.0,
+     "admitted_resolved": 130,
+     "infeasible_share_of_admitted": 0.34615384615384615
+    }
+   }
+  },
+  "r230": {
+   "counts": {
+    "feasible": 89,
+    "infeasible": 195,
+    "unresolved": 16
+   },
+   "errors": 0,
+   "rows": {
+    "energy_sizing": {
+     "false_feasible": 40,
+     "false_infeasible": 0,
+     "ff_rate": 0.20512820512820512,
+     "fi_rate": 0.0,
+     "admitted_resolved": 129,
+     "infeasible_share_of_admitted": 0.31007751937984496
+    },
+    "instantaneous": {
+     "false_feasible": 150,
+     "false_infeasible": 0,
+     "ff_rate": 0.7692307692307693,
+     "fi_rate": 0.0,
+     "admitted_resolved": 239,
+     "infeasible_share_of_admitted": 0.6276150627615062
+    },
+    "static_derating": {
+     "false_feasible": 0,
+     "false_infeasible": 35,
+     "ff_rate": 0.0,
+     "fi_rate": 0.39325842696629215,
+     "admitted_resolved": 54,
+     "infeasible_share_of_admitted": 0.0
+    },
+    "nominal_inner": {
+     "false_feasible": 6,
+     "false_infeasible": 5,
+     "ff_rate": 0.03076923076923077,
+     "fi_rate": 0.056179775280898875,
+     "admitted_resolved": 90,
+     "infeasible_share_of_admitted": 0.06666666666666667
+    },
+    "nominal_outer": {
+     "false_feasible": 8,
+     "false_infeasible": 3,
+     "ff_rate": 0.041025641025641026,
+     "fi_rate": 0.033707865168539325,
+     "admitted_resolved": 94,
+     "infeasible_share_of_admitted": 0.0851063829787234
+    },
+    "robust_inner": {
+     "false_feasible": 0,
+     "false_infeasible": 46,
+     "ff_rate": 0.0,
+     "fi_rate": 0.5168539325842697,
+     "admitted_resolved": 43,
+     "infeasible_share_of_admitted": 0.0
+    },
+    "robust_outer": {
+     "false_feasible": 50,
+     "false_infeasible": 0,
+     "ff_rate": 0.2564102564102564,
+     "fi_rate": 0.0,
+     "admitted_resolved": 139,
+     "infeasible_share_of_admitted": 0.3597122302158273
+    }
+   }
+  }
+ },
+ "R4": {
+  "r120": {
+   "successful_runs_checked": 118,
+   "contradictions": [
+    "sag / conventional_theta_b"
+   ]
+  },
+  "r230": {
+   "successful_runs_checked": 124,
+   "contradictions": [
+    "sag / conventional_theta_b",
+    "jump_pos / conventional_theta_b"
+   ]
+  }
+ },
+ "nonideal": {
+  "r120": [
+   {
+    "key": "reference",
+    "label": "Nominal, dead time 1 \u00b5s",
+    "group": "reference",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "harm_peak",
+    "label": "Voltage harmonics 4.7 %, peaking",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "harm_flat",
+    "label": "Voltage harmonics 4.7 %, flat-topped",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "sag",
+    "label": "Sag \u221210 %",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": false,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": false
+   },
+   {
+    "key": "swell",
+    "label": "Swell +10 %",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": "controller",
+    "effect_visible": false
+   },
+   {
+    "key": "f_low",
+    "label": "Frequency \u22121 %",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "f_high",
+    "label": "Frequency +1 %",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "jump_pos",
+    "label": "Phase jump +20\u00b0 at the step",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": false,
+    "theta_b_outer_infeasible": false,
+    "R6": false,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": false
+   },
+   {
+    "key": "jump_neg",
+    "label": "Phase jump \u221220\u00b0 at the step",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": false,
+    "theta_a_failure": "physical",
+    "effect_visible": false
+   },
+   {
+    "key": "pf_lag",
+    "label": "AC2 power factor 0.8 lagging",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": false,
+    "theta_a_failure": "physical",
+    "effect_visible": false
+   },
+   {
+    "key": "pf_lead",
+    "label": "AC2 power factor 0.8 leading",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "nonlinear",
+    "label": "Nonlinear AC2 load (3rd 30 %, 5th 15 %)",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": "controller",
+    "effect_visible": false
+   },
+   {
+    "key": "td05",
+    "label": "Dead time 0.5 \u00b5s",
+    "group": "switching",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "td2",
+    "label": "Dead time 2 \u00b5s",
+    "group": "switching",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "fsw10",
+    "label": "Switching frequency 10 kHz",
+    "group": "switching",
+    "pre_step_violation": true,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": null,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": false
+   },
+   {
+    "key": "fsw40",
+    "label": "Switching frequency 40 kHz",
+    "group": "switching",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": "controller",
+    "effect_visible": false
+   },
+   {
+    "key": "tmin",
+    "label": "Minimum pulse 1 \u00b5s",
+    "group": "switching",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "adc12",
+    "label": "12-bit ADC on every measurement",
+    "group": "measurement",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "delay2",
+    "label": "Two-period control delay",
+    "group": "measurement",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": "controller",
+    "effect_visible": false
+   },
+   {
+    "key": "gainV_lo",
+    "label": "Bus sensor gain \u22121 %",
+    "group": "measurement",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "gainV_hi",
+    "label": "Bus sensor gain +1 %",
+    "group": "measurement",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "offset_ib",
+    "label": "Buffer-current sensor offset 0.5 A",
+    "group": "measurement",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": "controller",
+    "effect_visible": false
+   },
+   {
+    "key": "corner_lo",
+    "label": "Tolerance corner, least favourable (Cb-20 Cdc-20 E+10 slew-30)",
+    "group": "tolerance",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": false,
+    "theta_a_failure": "physical",
+    "effect_visible": false
+   },
+   {
+    "key": "corner_hi",
+    "label": "Tolerance corner, most favourable (Cb+20 Cdc+20 E-10 slew+30)",
+    "group": "tolerance",
+    "pre_step_violation": false,
+    "theta_b_trips": false,
+    "theta_b_outer_infeasible": false,
+    "R6": false,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": false
+   }
+  ],
+  "r230": [
+   {
+    "key": "reference",
+    "label": "Nominal, dead time 1 \u00b5s",
+    "group": "reference",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "harm_peak",
+    "label": "Voltage harmonics 4.7 %, peaking",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": "controller",
+    "effect_visible": false
+   },
+   {
+    "key": "harm_flat",
+    "label": "Voltage harmonics 4.7 %, flat-topped",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "sag",
+    "label": "Sag \u221210 %",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": false,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": false
+   },
+   {
+    "key": "swell",
+    "label": "Swell +10 %",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": false,
+    "theta_a_failure": "physical",
+    "effect_visible": false
+   },
+   {
+    "key": "f_low",
+    "label": "Frequency \u22121 %",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "f_high",
+    "label": "Frequency +1 %",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "jump_pos",
+    "label": "Phase jump +20\u00b0 at the step",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": false,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": false
+   },
+   {
+    "key": "jump_neg",
+    "label": "Phase jump \u221220\u00b0 at the step",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": false,
+    "theta_a_failure": "physical",
+    "effect_visible": false
+   },
+   {
+    "key": "pf_lag",
+    "label": "AC2 power factor 0.8 lagging",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": false,
+    "theta_a_failure": "physical",
+    "effect_visible": false
+   },
+   {
+    "key": "pf_lead",
+    "label": "AC2 power factor 0.8 leading",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "nonlinear",
+    "label": "Nonlinear AC2 load (3rd 30 %, 5th 15 %)",
+    "group": "grid",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": "controller",
+    "effect_visible": false
+   },
+   {
+    "key": "td05",
+    "label": "Dead time 0.5 \u00b5s",
+    "group": "switching",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "td2",
+    "label": "Dead time 2 \u00b5s",
+    "group": "switching",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "fsw10",
+    "label": "Switching frequency 10 kHz",
+    "group": "switching",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": "controller",
+    "effect_visible": false
+   },
+   {
+    "key": "fsw40",
+    "label": "Switching frequency 40 kHz",
+    "group": "switching",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": "controller",
+    "effect_visible": false
+   },
+   {
+    "key": "tmin",
+    "label": "Minimum pulse 1 \u00b5s",
+    "group": "switching",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "adc12",
+    "label": "12-bit ADC on every measurement",
+    "group": "measurement",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "delay2",
+    "label": "Two-period control delay",
+    "group": "measurement",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "gainV_lo",
+    "label": "Bus sensor gain \u22121 %",
+    "group": "measurement",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "gainV_hi",
+    "label": "Bus sensor gain +1 %",
+    "group": "measurement",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "offset_ib",
+    "label": "Buffer-current sensor offset 0.5 A",
+    "group": "measurement",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": true
+   },
+   {
+    "key": "corner_lo",
+    "label": "Tolerance corner, least favourable (Cb-20 Cdc-20 E+10 slew-30)",
+    "group": "tolerance",
+    "pre_step_violation": false,
+    "theta_b_trips": true,
+    "theta_b_outer_infeasible": true,
+    "R6": true,
+    "theta_a_held": false,
+    "theta_a_outer_feasible": false,
+    "theta_a_failure": "physical",
+    "effect_visible": false
+   },
+   {
+    "key": "corner_hi",
+    "label": "Tolerance corner, most favourable (Cb+20 Cdc+20 E-10 slew+30)",
+    "group": "tolerance",
+    "pre_step_violation": false,
+    "theta_b_trips": false,
+    "theta_b_outer_infeasible": false,
+    "R6": false,
+    "theta_a_held": true,
+    "theta_a_outer_feasible": true,
+    "theta_a_failure": null,
+    "effect_visible": false
+   }
+  ]
+ }
+}

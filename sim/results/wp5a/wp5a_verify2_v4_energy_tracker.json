@@ -1,0 +1,32 @@
+[
+ {
+  "rating": "r120",
+  "case": "plan_at_suff_circuit",
+  "m": 0.35,
+  "cb": 0.000865174337793955,
+  "phase_deg": 30.0,
+  "violation": true,
+  "t_violation_ms": 12.583333333333336,
+  "bus_violation": true,
+  "current_violation": false,
+  "Vdc_min": 460.5697998191386,
+  "Vdc_max": 507.7977206726939,
+  "I_pole_peak": 62.08409158414632,
+  "plan_peak_iN": 64.02
+ },
+ {
+  "rating": "r230",
+  "case": "plan_at_suff_circuit",
+  "m": 0.35,
+  "cb": 0.0005577150190144066,
+  "phase_deg": 30.0,
+  "violation": false,
+  "t_violation_ms": null,
+  "bus_violation": false,
+  "current_violation": false,
+  "Vdc_min": 892.7692317904437,
+  "Vdc_max": 955.9548533545592,
+  "I_pole_peak": 66.28789255744182,
+  "plan_peak_iN": 66.92999999999999
+ }
+]

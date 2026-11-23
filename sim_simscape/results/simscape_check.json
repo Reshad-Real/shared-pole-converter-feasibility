@@ -1,0 +1,570 @@
+{
+  "criteria": {
+    "a": true,
+    "b": true,
+    "c": true
+  },
+  "max_trip_diff_ms": 0.10000000000000853,
+  "trip_diffs": [
+    [
+      "conventional_theta_b",
+      0.05000000000000149
+    ],
+    [
+      "sweep 15\u00b0 td 1",
+      0.0500000000000016
+    ],
+    [
+      "sweep 30\u00b0 td 1",
+      3.552713678800501e-15
+    ],
+    [
+      "sweep 45\u00b0 td 1",
+      3.552713678800501e-15
+    ],
+    [
+      "sweep 60\u00b0 td 1",
+      3.552713678800501e-15
+    ],
+    [
+      "sweep 135\u00b0 td 1",
+      0.09999999999999432
+    ],
+    [
+      "sweep 150\u00b0 td 1",
+      0.10000000000000853
+    ],
+    [
+      "sweep 165\u00b0 td 1",
+      7.105427357601002e-15
+    ],
+    [
+      "sweep 180\u00b0 td 1",
+      0.0
+    ],
+    [
+      "sweep 195\u00b0 td 1",
+      7.105427357601002e-15
+    ],
+    [
+      "sweep 210\u00b0 td 1",
+      0.05000000000000826
+    ],
+    [
+      "sweep 225\u00b0 td 1",
+      0.05000000000000826
+    ],
+    [
+      "sweep 240\u00b0 td 1",
+      0.0500000000000016
+    ],
+    [
+      "sweep 255\u00b0 td 1",
+      0.0500000000000016
+    ],
+    [
+      "sweep 270\u00b0 td 1",
+      6.8833827526759706e-15
+    ],
+    [
+      "sweep 15\u00b0 td 2",
+      7.105427357601002e-15
+    ],
+    [
+      "sweep 30\u00b0 td 2",
+      3.552713678800501e-15
+    ],
+    [
+      "sweep 45\u00b0 td 2",
+      3.1086244689504383e-15
+    ],
+    [
+      "sweep 60\u00b0 td 2",
+      0.05000000000000471
+    ],
+    [
+      "sweep 135\u00b0 td 2",
+      0.1000000000000032
+    ],
+    [
+      "sweep 150\u00b0 td 2",
+      0.050000000000007816
+    ],
+    [
+      "sweep 165\u00b0 td 2",
+      7.105427357601002e-15
+    ],
+    [
+      "sweep 180\u00b0 td 2",
+      0.0500000000000016
+    ],
+    [
+      "sweep 195\u00b0 td 2",
+      7.105427357601002e-15
+    ],
+    [
+      "sweep 210\u00b0 td 2",
+      0.05000000000000826
+    ],
+    [
+      "sweep 225\u00b0 td 2",
+      6.661338147750939e-15
+    ],
+    [
+      "sweep 240\u00b0 td 2",
+      0.0500000000000016
+    ],
+    [
+      "sweep 255\u00b0 td 2",
+      0.04999999999999449
+    ],
+    [
+      "sweep 270\u00b0 td 2",
+      6.8833827526759706e-15
+    ]
+  ],
+  "vb_rms_V": {
+    "conventional_theta_a": 0.3518421889056883,
+    "conventional_theta_b": 0.27963856214101895,
+    "plan_theta_a": 1.649415146959589
+  },
+  "sweep": {
+    "1": {
+      "contradictions": [],
+      "mismatches": [
+        285
+      ]
+    },
+    "2": {
+      "contradictions": [],
+      "mismatches": [
+        0,
+        75,
+        90
+      ]
+    }
+  },
+  "pair": {
+    "conventional_theta_a": {
+      "python": {
+        "Vdc_min": 193.96124492162963,
+        "Vdc_max": 206.65739493577794,
+        "Vdc_inst_min": 191.4800505647179,
+        "Vdc_inst_max": 207.84608787336217,
+        "I_pole_peak": 18.13225698737622,
+        "I_pole_peak_inst": 20.2901272821992,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 6,
+        "min_vN_headroom_V": 3.243248658200784,
+        "ac_current_rms_error_A": 0.05413698678884979,
+        "bus_violation": false,
+        "current_violation": false,
+        "current_violation_inst": true,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "violation": false
+      },
+      "simscape": {
+        "Vdc_min": 193.50857447134828,
+        "Vdc_max": 206.64491604128088,
+        "Vdc_inst_min": 191.09653405802342,
+        "Vdc_inst_max": 207.84087183419706,
+        "I_pole_peak": 18.2070141727075,
+        "I_pole_peak_inst": 20.356045947792804,
+        "sat_time_ms": 0,
+        "synth_time_ms": 0,
+        "min_vN_headroom_V": 1.6786341072201054,
+        "violation": false,
+        "t_violation_ms": null,
+        "current_violation_inst": true
+      }
+    },
+    "conventional_theta_b": {
+      "python": {
+        "Vdc_min": 183.17294567277472,
+        "Vdc_max": 202.2651275459917,
+        "Vdc_inst_min": 181.7879550489669,
+        "Vdc_inst_max": 203.12411309795854,
+        "I_pole_peak": 7.538856350313718,
+        "I_pole_peak_inst": 8.187970238092994,
+        "sat_time_ms": 1.699999999999999,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 58,
+        "min_vN_headroom_V": -38.714749834460434,
+        "ac_current_rms_error_A": 0.07561260235443175,
+        "bus_violation": true,
+        "current_violation": false,
+        "current_violation_inst": false,
+        "synth_violation": false,
+        "t_violation_ms": 0.899999999999998,
+        "violation": true
+      },
+      "simscape": {
+        "Vdc_min": 181.42555584621078,
+        "Vdc_max": 201.9076335080605,
+        "Vdc_inst_min": 180.00616530676996,
+        "Vdc_inst_max": 202.8613793874589,
+        "I_pole_peak": 7.526366081892256,
+        "I_pole_peak_inst": 8.096328548175492,
+        "sat_time_ms": 1.699999999999999,
+        "synth_time_ms": 0,
+        "min_vN_headroom_V": -35.03370392276156,
+        "violation": true,
+        "t_violation_ms": 0.8499999999999965,
+        "current_violation_inst": false
+      }
+    },
+    "plan_theta_a": {
+      "python": {
+        "Vdc_min": 193.96271625508894,
+        "Vdc_max": 206.54350445860177,
+        "Vdc_inst_min": 191.7313172608407,
+        "Vdc_inst_max": 207.71187814327948,
+        "I_pole_peak": 18.059437801117827,
+        "I_pole_peak_inst": 20.210698562746874,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 0,
+        "min_vN_headroom_V": 4.3069810281559455,
+        "ac_current_rms_error_A": 0.055243103536899346,
+        "bus_violation": false,
+        "current_violation": false,
+        "current_violation_inst": true,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "violation": false
+      },
+      "simscape": {
+        "Vdc_min": 193.49185719439888,
+        "Vdc_max": 206.38795559200673,
+        "Vdc_inst_min": 191.3833706391208,
+        "Vdc_inst_max": 207.54996209440478,
+        "I_pole_peak": 18.115073615195403,
+        "I_pole_peak_inst": 20.263715583426507,
+        "sat_time_ms": 0,
+        "synth_time_ms": 0,
+        "min_vN_headroom_V": 1.8799331663601606,
+        "violation": false,
+        "t_violation_ms": null,
+        "current_violation_inst": true
+      }
+    }
+  },
+  "pair_td": {
+    "conventional_theta_a_td0us": {
+      "Vdc_min": 193.37605214554188,
+      "Vdc_max": 205.31176461501488,
+      "Vdc_inst_min": 189.9437901102102,
+      "Vdc_inst_max": 206.4985534103247,
+      "I_pole_peak": 18.25313133846214,
+      "I_pole_peak_inst": 20.40431585405893,
+      "sat_time_ms": 0,
+      "synth_time_ms": 0,
+      "min_vN_headroom_V": 0.5104166459839803,
+      "violation": false,
+      "t_violation_ms": null,
+      "current_violation_inst": true
+    },
+    "conventional_theta_a_td2us": {
+      "Vdc_min": 189.74688323485367,
+      "Vdc_max": 207.77201989462313,
+      "Vdc_inst_min": 184.51263796551143,
+      "Vdc_inst_max": 208.95679710194327,
+      "I_pole_peak": 18.11267241890003,
+      "I_pole_peak_inst": 20.276512831203295,
+      "sat_time_ms": 0,
+      "synth_time_ms": 0,
+      "min_vN_headroom_V": 2.58332510413004,
+      "violation": true,
+      "t_violation_ms": 20.149999999999995,
+      "current_violation_inst": true
+    },
+    "conventional_theta_b_td0us": {
+      "Vdc_min": 177.5810226244623,
+      "Vdc_max": 200.1606568666503,
+      "Vdc_inst_min": 176.13994164992673,
+      "Vdc_inst_max": 201.13829815861394,
+      "I_pole_peak": 7.555229328187282,
+      "I_pole_peak_inst": 8.108709135460066,
+      "sat_time_ms": 1.699999999999999,
+      "synth_time_ms": 0,
+      "min_vN_headroom_V": -35.42518187790039,
+      "violation": true,
+      "t_violation_ms": 0.7999999999999952,
+      "current_violation_inst": false
+    },
+    "conventional_theta_b_td2us": {
+      "Vdc_min": 178.94533995610473,
+      "Vdc_max": 203.72641967970395,
+      "Vdc_inst_min": 176.48913267600602,
+      "Vdc_inst_max": 204.67827952367065,
+      "I_pole_peak": 7.510868949906404,
+      "I_pole_peak_inst": 8.732601833506308,
+      "sat_time_ms": 1.699999999999999,
+      "synth_time_ms": 0,
+      "min_vN_headroom_V": -56.292015093679794,
+      "violation": true,
+      "t_violation_ms": 0.9499999999999925,
+      "current_violation_inst": false
+    },
+    "plan_theta_a_td0us": {
+      "Vdc_min": 193.35858291841035,
+      "Vdc_max": 204.7661088372088,
+      "Vdc_inst_min": 189.82296889602534,
+      "Vdc_inst_max": 205.97816202725784,
+      "I_pole_peak": 18.262844769321404,
+      "I_pole_peak_inst": 20.417229689322166,
+      "sat_time_ms": 0,
+      "synth_time_ms": 0,
+      "min_vN_headroom_V": 0.9217902155461672,
+      "violation": false,
+      "t_violation_ms": null,
+      "current_violation_inst": true
+    },
+    "plan_theta_a_td2us": {
+      "Vdc_min": 189.9372801550392,
+      "Vdc_max": 207.690512935077,
+      "Vdc_inst_min": 187.72509071810313,
+      "Vdc_inst_max": 208.85176615632676,
+      "I_pole_peak": 18.041062327441153,
+      "I_pole_peak_inst": 20.186990089730948,
+      "sat_time_ms": 0,
+      "synth_time_ms": 0,
+      "min_vN_headroom_V": 4.305105633994174,
+      "violation": true,
+      "t_violation_ms": 12.499999999999991,
+      "current_violation_inst": true
+    }
+  },
+  "python_pair_td": {
+    "conventional_theta_a": {
+      "averaged": {
+        "Vdc_min": 195.01235788563136,
+        "Vdc_max": 202.41650096978498,
+        "I_pole_peak": 18.8014038973455,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "bus_violation": false,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "min_vN_headroom_V": 0.38066751065193216,
+        "violation": false
+      },
+      "switched_td0us": {
+        "Vdc_min": 193.70903881520323,
+        "Vdc_max": 205.28016552086083,
+        "Vdc_inst_min": 190.28515627922124,
+        "Vdc_inst_max": 206.48090883874264,
+        "I_pole_peak": 18.22234334897389,
+        "I_pole_peak_inst": 20.374429745013046,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 0,
+        "min_vN_headroom_V": 0.8213155726308514,
+        "ac_current_rms_error_A": 0.033275262128277014,
+        "bus_violation": false,
+        "current_violation": false,
+        "current_violation_inst": true,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "violation": false
+      },
+      "switched_td1us": {
+        "Vdc_min": 193.96124492162963,
+        "Vdc_max": 206.65739493577794,
+        "Vdc_inst_min": 191.4800505647179,
+        "Vdc_inst_max": 207.84608787336217,
+        "I_pole_peak": 18.13225698737622,
+        "I_pole_peak_inst": 20.2901272821992,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 6,
+        "min_vN_headroom_V": 3.243248658200784,
+        "ac_current_rms_error_A": 0.05413698678884979,
+        "bus_violation": false,
+        "current_violation": false,
+        "current_violation_inst": true,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "violation": false
+      },
+      "rms_diff_vb_V": 0.6387733191461171,
+      "rms_diff_Vdc_V": 3.502761751441032,
+      "switched_td2us": {
+        "Vdc_min": 190.1145523651109,
+        "Vdc_max": 208.07226626473135,
+        "Vdc_inst_min": 184.8621471505591,
+        "Vdc_inst_max": 209.25345318244302,
+        "I_pole_peak": 18.058860075305976,
+        "I_pole_peak_inst": 20.221725213964415,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 44,
+        "min_vN_headroom_V": 2.130141490622819,
+        "ac_current_rms_error_A": 0.09557968148040734,
+        "bus_violation": false,
+        "current_violation": false,
+        "current_violation_inst": true,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "violation": false
+      }
+    },
+    "conventional_theta_b": {
+      "averaged": {
+        "Vdc_min": 173.47432137024768,
+        "Vdc_max": 199.6492954799514,
+        "I_pole_peak": 7.656929965965476,
+        "sat_time_ms": 1.2350000000000028,
+        "synth_time_ms": 0.0,
+        "bus_violation": true,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": 0.7000000000000062,
+        "min_vN_headroom_V": -36.803486280697065,
+        "violation": true
+      },
+      "switched_td0us": {
+        "Vdc_min": 178.95240813885098,
+        "Vdc_max": 200.4679272937919,
+        "Vdc_inst_min": 177.52240965221097,
+        "Vdc_inst_max": 201.33247355828215,
+        "I_pole_peak": 7.557373713370265,
+        "I_pole_peak_inst": 8.114840644275802,
+        "sat_time_ms": 1.649999999999999,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 0,
+        "min_vN_headroom_V": -31.56185908384998,
+        "ac_current_rms_error_A": 0.046860132401169166,
+        "bus_violation": true,
+        "current_violation": false,
+        "current_violation_inst": false,
+        "synth_violation": false,
+        "t_violation_ms": 0.800000000000002,
+        "violation": true
+      },
+      "switched_td1us": {
+        "Vdc_min": 183.17294567277472,
+        "Vdc_max": 202.2651275459917,
+        "Vdc_inst_min": 181.7879550489669,
+        "Vdc_inst_max": 203.12411309795854,
+        "I_pole_peak": 7.538856350313718,
+        "I_pole_peak_inst": 8.187970238092994,
+        "sat_time_ms": 1.699999999999999,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 58,
+        "min_vN_headroom_V": -38.714749834460434,
+        "ac_current_rms_error_A": 0.07561260235443175,
+        "bus_violation": true,
+        "current_violation": false,
+        "current_violation_inst": false,
+        "synth_violation": false,
+        "t_violation_ms": 0.899999999999998,
+        "violation": true
+      },
+      "rms_diff_vb_V": 0.4625723891411631,
+      "rms_diff_Vdc_V": 4.196836277156572,
+      "switched_td2us": {
+        "Vdc_min": 178.4217837334793,
+        "Vdc_max": 204.05647347759492,
+        "Vdc_inst_min": 175.69241705708797,
+        "Vdc_inst_max": 204.91020661384377,
+        "I_pole_peak": 7.526052652932615,
+        "I_pole_peak_inst": 9.40044879655683,
+        "sat_time_ms": 1.699999999999999,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 64,
+        "min_vN_headroom_V": -60.649750123295206,
+        "ac_current_rms_error_A": 0.1801496431536907,
+        "bus_violation": true,
+        "current_violation": false,
+        "current_violation_inst": false,
+        "synth_violation": false,
+        "t_violation_ms": 1.0000000000000009,
+        "violation": true
+      }
+    },
+    "plan_theta_a": {
+      "averaged": {
+        "Vdc_min": 195.00086071045396,
+        "Vdc_max": 202.42192901849904,
+        "I_pole_peak": 18.805822562832716,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "bus_violation": false,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "min_vN_headroom_V": 3.187165624539844,
+        "violation": false
+      },
+      "switched_td0us": {
+        "Vdc_min": 193.69357026058358,
+        "Vdc_max": 205.19261837282534,
+        "Vdc_inst_min": 190.2470677164763,
+        "Vdc_inst_max": 206.37642685452198,
+        "I_pole_peak": 18.191577171940857,
+        "I_pole_peak_inst": 20.318162505520664,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 0,
+        "min_vN_headroom_V": 1.649296617448087,
+        "ac_current_rms_error_A": 0.03324418808702364,
+        "bus_violation": false,
+        "current_violation": false,
+        "current_violation_inst": true,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "violation": false
+      },
+      "switched_td1us": {
+        "Vdc_min": 193.96271625508894,
+        "Vdc_max": 206.54350445860177,
+        "Vdc_inst_min": 191.7313172608407,
+        "Vdc_inst_max": 207.71187814327948,
+        "I_pole_peak": 18.059437801117827,
+        "I_pole_peak_inst": 20.210698562746874,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 0,
+        "min_vN_headroom_V": 4.3069810281559455,
+        "ac_current_rms_error_A": 0.055243103536899346,
+        "bus_violation": false,
+        "current_violation": false,
+        "current_violation_inst": true,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "violation": false
+      },
+      "rms_diff_vb_V": 0.8925357870473896,
+      "rms_diff_Vdc_V": 3.5302965761485594,
+      "switched_td2us": {
+        "Vdc_min": 190.41664680307278,
+        "Vdc_max": 207.94822645954258,
+        "Vdc_inst_min": 188.28660730000857,
+        "Vdc_inst_max": 209.10608038178316,
+        "I_pole_peak": 17.938194186777086,
+        "I_pole_peak_inst": 20.09681003516151,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "duty_clamps": 82,
+        "min_vN_headroom_V": 6.04763307395767,
+        "ac_current_rms_error_A": 0.10762403479781889,
+        "bus_violation": false,
+        "current_violation": false,
+        "current_violation_inst": true,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "violation": false
+      }
+    }
+  },
+  "solver": {
+    "Ts": 1e-07,
+    "local_solver": "partitioning",
+    "switch": "Ideal Semiconductor Switch",
+    "matlab": "25.2.0.2998904 (R2025b)"
+  }
+}

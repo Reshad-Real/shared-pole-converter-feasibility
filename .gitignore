@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+# Simulink build caches and autosaves
+slprj/
+*.slxc
+*.asv
+*.autosave
+# article PDFs and their renders must not be committed
+literature/
+sim_r22/work/
+*.pdf

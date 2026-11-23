@@ -1,0 +1,6 @@
+# Tested with Python 3.14.5
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.10.9
+# only for the optional digitisation step (sim_r22/digitize_fig7.py)
+pillow==12.2.0

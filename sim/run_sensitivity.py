@@ -1,0 +1,167 @@
+"""Does the phase effect survive away from the baseline? One-at-a-time sensitivity sweeps.
+
+For each configuration the phase of the AC2 step is swept, and two step limits are computed:
+  conventional = min(energy sizing, steady-state limit)    (what the phase-blind checks admit)
+  outer bound  = largest step any controller could handle in the reduced model
+Their difference at the worst phase is a lower bound on how much the conventional checks
+over-admit (the true limit can only be lower than the outer bound).
+
+Run:  py sim/run_sensitivity.py [--rating r120|r230]   (add --plot-only to redraw from JSON)
+"""
+import argparse
+import json
+import os
+import time
+from concurrent.futures import ProcessPoolExecutor
+from dataclasses import replace
+from pathlib import Path
+
+import numpy as np
+
+from model import bisect, steady_orbit
+from feasibility import post_step_limit
+from run_pair_experiment import (AXIS, INK, INK2, MUTED, S1, SURF, _max_step, _style)
+import ratings
+
+OUT = Path(__file__).resolve().parent / "results"
+PHASES = np.arange(0, 360, 18)
+BASE_RATIO = None  # set from the baseline in main()
+
+
+def cb_min(p):
+    return bisect(lambda c: steady_orbit(replace(p, Cb=c), p.P2_pre, p.Vdc_nom, 0.0) is None,
+                  1e-6, 5e-3, 1e-7)
+
+
+def configs(base, rating):
+    ratio = base.Cb / cb_min(base)
+    out = []
+    if rating == "baseline":
+        slews = (25, 50, 100, 200, 500, 1000)
+    else:   # around the bus-loop regime, plus the fast (current-loop) regime
+        d = ratings.describe(rating)
+        slews = tuple(round(f * d["slew_bus_W_per_ms"]) for f in (0.25, 0.5, 1, 2, 5)) + (
+            round(d["slew_fast_W_per_ms"]),)
+    for s in slews:
+        out.append(("DC1 slew (W/ms)", s, replace(base, slew_dc1=s * 1e3)))
+    for r in (1.5, 2.0, 3.0, 4.0):
+        out.append(("Buffer oversizing (Cb / Cb_min)", r, replace(base, Cb=r * cb_min(base))))
+    for m in (0.30, 0.35, 0.40, 0.45):
+        E = m * base.Vdc_nom
+        q = replace(base, E1=E, E2=E)
+        out.append(("Modulation index (E / Vdc)", E / base.Vdc_nom,
+                    replace(q, Cb=ratio * cb_min(q))))
+    return out, ratio
+
+
+def main():
+    global OUT
+    ap = argparse.ArgumentParser(description="One-at-a-time sensitivity of the phase effect")
+    ap.add_argument("--rating", choices=ratings.RATINGS, default="baseline")
+    ap.add_argument("--plot-only", action="store_true")
+    args = ap.parse_args()
+    if args.rating != "baseline":
+        OUT = OUT / args.rating
+    OUT.mkdir(parents=True, exist_ok=True)
+    t0 = time.time()
+    base = ratings.get(args.rating)
+    if args.plot_only:
+        saved = json.loads((OUT / "sensitivity.json").read_text())
+        plot(saved["rows"], base, saved["baseline_ratio"])
+        return
+    cfgs, ratio = configs(base, args.rating)
+    # Each worker loads scipy; more than ~8 exhausted the Windows page file on a 20-core laptop
+    workers = max(1, min(8, (os.cpu_count() or 2) - 2))
+    jobs, meta = [], []
+    for ci, (_, _, q) in enumerate(cfgs):
+        cap = 1.2 * post_step_limit(q, hi=max(2000.0, 4 * (q.P1 + q.P2_pre)))
+        meta.append(cap / 1.2)
+        tol = max(1.0, 0.002 * cap)
+        for mode in ("outer", "energy"):
+            for th in PHASES:
+                jobs.append((q, float(th), mode, cap, tol))
+    with ProcessPoolExecutor(max_workers=workers) as ex:
+        res = list(ex.map(_max_step, jobs))
+
+    rows = []
+    n = len(PHASES)
+    for ci, (group, value, q) in enumerate(cfgs):
+        block = res[ci * 2 * n:(ci + 1) * 2 * n]
+        outer, energy = np.array(block[:n]), np.array(block[n:])
+        C2 = meta[ci]
+        conv = np.minimum(energy, C2)
+        over = conv - outer
+        k = int(np.nanargmax(over))
+        rows.append(dict(group=group, value=float(value), Cb_uF=q.Cb * 1e6,
+                         slew_W_per_ms=q.slew_dc1 / 1e3, E_V=q.E1, C2_limit_W=float(C2),
+                         worst_phase_deg=float(PHASES[k]), conventional_W=float(conv[k]),
+                         outer_W=float(outer[k]), overestimate_W=float(over[k]),
+                         overestimate_pct=float(100 * over[k] / conv[k]) if conv[k] > 0 else np.nan,
+                         phase_spread_outer_W=float(np.nanmax(outer) - np.nanmin(outer))))
+        print(f"{group:34s} {value:7.2f}: worst {PHASES[k]:5.0f} deg, conventional "
+              f"{conv[k]:6.1f} W, outer {outer[k]:6.1f} W, over {over[k]:6.1f} W "
+              f"({rows[-1]['overestimate_pct']:.0f} %)", flush=True)
+
+    (OUT / "sensitivity.json").write_text(json.dumps(dict(baseline_ratio=ratio, rows=rows),
+                                                     indent=2))
+    write_table(rows, ratio, base, args.rating)
+    plot(rows, base, ratio)
+    print(f"done in {time.time() - t0:.0f} s", flush=True)
+
+
+def write_table(rows, ratio, base, rating):
+    L = [f"# Sensitivity of the phase effect ({rating})\n",
+         "Generated by `sim/run_sensitivity.py`. One parameter changes at a time from the "
+         f"reference point (DC1 slew {base.slew_dc1 / 1e3:.0f} W/ms, Cb/Cb_min = {ratio:.2f}, "
+         f"E/Vdc = {base.E1 / base.Vdc_nom:.2f}). Phases every 18°.\n",
+         "*Conventional* is the step that energy sizing plus the steady-state checks admit. "
+         "*Outer bound* is the largest step any controller could handle in the reduced model. "
+         "The over-admission is a lower bound on how wrong the conventional checks are at the "
+         "worst phase.\n",
+         "| Parameter | Value | Worst phase (deg) | Conventional (W) | Outer bound (W) | "
+         "Over-admitted (W) | Over-admitted (% of conventional) |",
+         "|---|---|---|---|---|---|---|"]
+    for r in rows:
+        L.append(f"| {r['group']} | {r['value']:g} | {r['worst_phase_deg']:.0f} | "
+                 f"{r['conventional_W']:.0f} | {r['outer_W']:.0f} | {r['overestimate_W']:.0f} | "
+                 f"{r['overestimate_pct']:.0f} |")
+    (OUT / "sensitivity.md").write_text("\n".join(L) + "\n", encoding="utf-8")
+
+
+def plot(rows, base, ratio):
+    plt = _style()
+    groups = list(dict.fromkeys(r["group"] for r in rows))
+    fig, axs = plt.subplots(1, len(groups), figsize=(9.6, 3.0), sharey=True,
+                            gridspec_kw=dict(wspace=0.08))
+    base_vals = {"DC1 slew (W/ms)": base.slew_dc1 / 1e3,
+                 "Buffer oversizing (Cb / Cb_min)": ratio,
+                 "Modulation index (E / Vdc)": base.E1 / base.Vdc_nom}
+    for ax, g in zip(axs, groups):
+        rs = [r for r in rows if r["group"] == g]
+        x = [r["value"] for r in rs]
+        y = [r["overestimate_pct"] for r in rs]
+        ax.plot(x, y, color=S1, marker="o", ms=6, mec=SURF, mew=2)
+        if g.startswith("DC1"):
+            ax.set_xscale("log")
+            ax.set_xticks(x)
+            ax.set_xticklabels([f"{v:g}" for v in x])
+            ax.minorticks_off()
+        ax.axvline(base_vals[g], color=AXIS, lw=0.8)
+        ax.set_xlabel(g)
+        ax.axhline(0, color=AXIS, lw=0.8)
+        for xi, yi in zip(x, y):
+            ax.annotate(f"{yi:.0f}%", (xi, yi), xytext=(0, 7 if yi >= 0 else -13),
+                        textcoords="offset points", ha="center", color=INK2, fontsize=7.5)
+    axs[0].set_ylabel("Over-admitted step at worst phase\n(% of conventional limit)")
+    ys = [r["overestimate_pct"] for r in rows]
+    axs[0].set_ylim(min(0, min(ys) - 12), max(10, max(ys) * 1.25))
+    fig.suptitle("How much the phase-blind checks over-admit (lower bound)", x=0.07, ha="left",
+                 fontsize=10.5, fontweight="semibold", color=INK, y=1.02)
+    fig.text(0.07, -0.08, "Vertical line: baseline of the pair experiment. Below zero, the "
+             "phase-blind checks are conservative at every phase.", color=MUTED, fontsize=7.5)
+    fig.savefig(OUT / "fig4_sensitivity.png", dpi=200, bbox_inches="tight")
+    plt.close(fig)
+
+
+if __name__ == "__main__":
+    main()

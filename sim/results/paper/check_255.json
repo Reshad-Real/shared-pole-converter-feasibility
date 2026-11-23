@@ -1,0 +1,44 @@
+[
+ {
+  "rating": "r120",
+  "phase_deg": 240,
+  "step_W": 1000.0,
+  "reduced_outer": false,
+  "circuit_outer_8cyc": false
+ },
+ {
+  "rating": "r120",
+  "phase_deg": 255,
+  "step_W": 1000.0,
+  "reduced_outer": false,
+  "circuit_outer_8cyc": true
+ },
+ {
+  "rating": "r120",
+  "phase_deg": 270,
+  "step_W": 1000.0,
+  "reduced_outer": true,
+  "circuit_outer_8cyc": true
+ },
+ {
+  "rating": "r230",
+  "phase_deg": 240,
+  "step_W": 1975.0,
+  "reduced_outer": false,
+  "circuit_outer_8cyc": false
+ },
+ {
+  "rating": "r230",
+  "phase_deg": 255,
+  "step_W": 1975.0,
+  "reduced_outer": false,
+  "circuit_outer_8cyc": true
+ },
+ {
+  "rating": "r230",
+  "phase_deg": 270,
+  "step_W": 1975.0,
+  "reduced_outer": true,
+  "circuit_outer_8cyc": true
+ }
+]

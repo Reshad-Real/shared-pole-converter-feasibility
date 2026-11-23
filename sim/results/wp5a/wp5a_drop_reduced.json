@@ -1,0 +1,38 @@
+[
+ {
+  "rating": "r120",
+  "alpha": 0.5,
+  "down_reduced_outer": 0.0002063962824617177,
+  "phase_deg": 225.0
+ },
+ {
+  "rating": "r120",
+  "alpha": 0.75,
+  "down_reduced_outer": 0.00021204137933639798,
+  "phase_deg": 225.0
+ },
+ {
+  "rating": "r120",
+  "alpha": 1.0,
+  "down_reduced_outer": 0.00022992006346245718,
+  "phase_deg": 225.0
+ },
+ {
+  "rating": "r230",
+  "alpha": 0.5,
+  "down_reduced_outer": 0.000138627792674855,
+  "phase_deg": 225.0
+ },
+ {
+  "rating": "r230",
+  "alpha": 0.75,
+  "down_reduced_outer": 0.00014533095274553618,
+  "phase_deg": 225.0
+ },
+ {
+  "rating": "r230",
+  "alpha": 1.0,
+  "down_reduced_outer": 0.00016080643841297359,
+  "phase_deg": 225.0
+ }
+]

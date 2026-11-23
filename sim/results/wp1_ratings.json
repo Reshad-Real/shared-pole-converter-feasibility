@@ -1,0 +1,810 @@
+{
+  "baseline": {
+    "worst": {
+      "phase_deg": 261,
+      "conventional_W": 263.18359375,
+      "outer_W": 159.14382934570312,
+      "over_W": 104.03976440429688,
+      "over_pct": 39.53125
+    },
+    "pair": {
+      "theta_a_deg": 81.0,
+      "theta_b_deg": 261.0,
+      "dP_test_W": 210.0,
+      "window_W": [
+        159.14382934570312,
+        263.18359375
+      ],
+      "theta_b_relaxation_V": 12.421875,
+      "verdicts": {
+        "81": {
+          "inner": true,
+          "outer": true,
+          "energy": true,
+          "static": false,
+          "instantaneous": {
+            "modulation_ok": true,
+            "vb0_in_band": true,
+            "pre_orbit_ok": true,
+            "post_orbit_ok": true,
+            "pole_current_ok": true,
+            "band_headroom_now_V": 14.203220604886894,
+            "pass": true
+          },
+          "state": {
+            "Eb0_J": 1.4056328116998493,
+            "vb0_V": 106.04273899517493,
+            "ib0_A": -2.269858331085814,
+            "pb0_W": -240.70199455935634,
+            "Vdc0_V": 200.0,
+            "Pdc1_0_W": 301.01562499999994,
+            "pac0_W": 491.7176195593563,
+            "u1_V": 79.75404039993818,
+            "u2_V": 79.50771601582913,
+            "i1_A": 3.7038312772317665,
+            "i2_A": 2.4692208514878446
+          }
+        },
+        "261": {
+          "inner": false,
+          "outer": false,
+          "energy": true,
+          "static": false,
+          "instantaneous": {
+            "modulation_ok": true,
+            "vb0_in_band": true,
+            "pre_orbit_ok": true,
+            "post_orbit_ok": true,
+            "pole_current_ok": true,
+            "band_headroom_now_V": 26.288698595236752,
+            "pass": true
+          },
+          "state": {
+            "Eb0_J": 1.4056328116998489,
+            "vb0_V": 106.04273899517491,
+            "ib0_A": -2.269858331085812,
+            "pb0_W": -240.70199455935605,
+            "Vdc0_V": 200.0,
+            "Pdc1_0_W": 301.01562499999994,
+            "pac0_W": 491.7176195593561,
+            "u1_V": -79.75404039993816,
+            "u2_V": -79.50771601582912,
+            "i1_A": -3.703831277231766,
+            "i2_A": -2.469220851487844
+          }
+        }
+      },
+      "Cb_required_uF": {
+        "theta_a_sufficient": 197.51953125000003,
+        "theta_a_necessary": 197.51953125000003,
+        "theta_b_sufficient": 337.20703125000006,
+        "theta_b_necessary": 312.4707031250001,
+        "energy_sizing_plus_steady": 220.80078125000003,
+        "installed": 250.0
+      },
+      "monotone_in_dP": true
+    },
+    "steady": {
+      "Cb_min_steady_uF": 116.40951538085938,
+      "Cb_over_min": 2.1475907633673237,
+      "orbit_vb_min_V": 84.48460739388781,
+      "orbit_vb_max_V": 116.32613201169484,
+      "orbit_margin_J": 0.5379113187521756,
+      "Pdc1_pre_W": 301.01562499999994,
+      "C2_limit_W": 263.18359375
+    },
+    "timedomain": {
+      "conventional_theta_a": {
+        "Vdc_min": 195.01235788563136,
+        "Vdc_max": 202.41650096978498,
+        "I_pole_peak": 18.8014038973455,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "bus_violation": false,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "min_vN_headroom_V": 0.38066751065193216,
+        "violation": false
+      },
+      "conventional_theta_b": {
+        "Vdc_min": 173.47432137024768,
+        "Vdc_max": 199.6492954799514,
+        "I_pole_peak": 7.656929965965476,
+        "sat_time_ms": 1.2350000000000028,
+        "synth_time_ms": 0.0,
+        "bus_violation": true,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": 0.7000000000000062,
+        "min_vN_headroom_V": -36.803486280697065,
+        "violation": true
+      },
+      "plan_theta_a": {
+        "Vdc_min": 195.00086071045396,
+        "Vdc_max": 202.42192901849904,
+        "I_pole_peak": 18.805822562832716,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "bus_violation": false,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "min_vN_headroom_V": 3.187165624539844,
+        "violation": false
+      }
+    },
+    "cap_penalty_pct": 41.51702786377713,
+    "slew_rows": [
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 25.0,
+        "Cb_uF": 250.0,
+        "slew_W_per_ms": 25.0,
+        "E_V": 80.0,
+        "C2_limit_W": 263.18359375,
+        "worst_phase_deg": 252.0,
+        "conventional_W": 203.55606079101562,
+        "outer_W": 115.34843444824219,
+        "overestimate_W": 88.20762634277344,
+        "overestimate_pct": 43.333333333333336,
+        "phase_spread_outer_W": 135.70404052734375
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 50.0,
+        "Cb_uF": 250.0,
+        "slew_W_per_ms": 50.0,
+        "E_V": 80.0,
+        "C2_limit_W": 263.18359375,
+        "worst_phase_deg": 252.0,
+        "conventional_W": 235.0147247314453,
+        "outer_W": 135.70404052734375,
+        "overestimate_W": 99.31068420410156,
+        "overestimate_pct": 42.25721784776903,
+        "phase_spread_outer_W": 196.77085876464844
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 100.0,
+        "Cb_uF": 250.0,
+        "slew_W_per_ms": 100.0,
+        "E_V": 80.0,
+        "C2_limit_W": 263.18359375,
+        "worst_phase_deg": 234.0,
+        "conventional_W": 263.18359375,
+        "outer_W": 167.779541015625,
+        "overestimate_W": 95.404052734375,
+        "overestimate_pct": 36.25,
+        "phase_spread_outer_W": 148.040771484375
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 200.0,
+        "Cb_uF": 250.0,
+        "slew_W_per_ms": 200.0,
+        "E_V": 80.0,
+        "C2_limit_W": 263.18359375,
+        "worst_phase_deg": 270.0,
+        "conventional_W": 263.18359375,
+        "outer_W": 220.82748413085938,
+        "overestimate_W": 42.356109619140625,
+        "overestimate_pct": 16.09375,
+        "phase_spread_outer_W": 94.99282836914062
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 500.0,
+        "Cb_uF": 250.0,
+        "slew_W_per_ms": 500.0,
+        "E_V": 80.0,
+        "C2_limit_W": 263.18359375,
+        "worst_phase_deg": 270.0,
+        "conventional_W": 263.18359375,
+        "outer_W": 246.11778259277344,
+        "overestimate_W": 17.065811157226562,
+        "overestimate_pct": 6.484375,
+        "phase_spread_outer_W": 69.70252990722656
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 1000.0,
+        "Cb_uF": 250.0,
+        "slew_W_per_ms": 1000.0,
+        "E_V": 80.0,
+        "C2_limit_W": 263.18359375,
+        "worst_phase_deg": 270.0,
+        "conventional_W": 263.18359375,
+        "outer_W": 279.4269561767578,
+        "overestimate_W": -16.243362426757812,
+        "overestimate_pct": -6.171875,
+        "phase_spread_outer_W": 36.39335632324219
+      }
+    ],
+    "params": {
+      "f": 50.0,
+      "Vdc_nom": 200.0,
+      "Vdc_min": 190.0,
+      "Vdc_max": 210.0,
+      "Cdc": 2e-05,
+      "E1": 80.0,
+      "E2": 80.0,
+      "phi2": 0.0,
+      "L1": 0.002,
+      "R1": 0.1,
+      "L2": 0.002,
+      "R2": 0.1,
+      "P1": 150.0,
+      "P2_pre": 100.0,
+      "Pdc2": 50.0,
+      "Tr2": 0.001,
+      "Cb": 0.00025,
+      "Lb": 0.001,
+      "Rb": 0.1,
+      "slew_dc1": 50000.0,
+      "Pdc1_min": -1000.0,
+      "Pdc1_max": 1000.0,
+      "I_pole_max": 20.0,
+      "delta_in": 3.0,
+      "Ts": 0.0001,
+      "n_cycles": 8
+    },
+    "info": {
+      "name": "baseline",
+      "P2_rated": null
+    }
+  },
+  "r120": {
+    "worst": {
+      "phase_deg": 207,
+      "conventional_W": 1095.5223083496094,
+      "outer_W": 600.9418487548828,
+      "over_W": 494.58045959472656,
+      "over_pct": 45.14563106796116
+    },
+    "pair": {
+      "theta_a_deg": 270.0,
+      "theta_b_deg": 90.0,
+      "dP_test_W": 1000.0,
+      "window_W": [
+        829.6188354492188,
+        1175.2933502197266
+      ],
+      "theta_b_relaxation_V": 32.4664306640625,
+      "verdicts": {
+        "270": {
+          "inner": true,
+          "outer": true,
+          "energy": true,
+          "static": false,
+          "instantaneous": {
+            "modulation_ok": true,
+            "vb0_in_band": true,
+            "pre_orbit_ok": true,
+            "post_orbit_ok": true,
+            "pole_current_ok": true,
+            "band_headroom_now_V": 45.173020408195526,
+            "pass": true
+          },
+          "state": {
+            "Eb0_J": 8.768515405993751,
+            "vb0_V": 215.87890276113671,
+            "ib0_A": -9.297792448272777,
+            "pb0_W": -2007.1972318339099,
+            "Vdc0_V": 425.0,
+            "Pdc1_0_W": 2407.1972318339103,
+            "pac0_W": 4014.39446366782,
+            "u1_V": -170.7058823529412,
+            "u2_V": -170.47058823529412,
+            "i1_A": -14.117647058823529,
+            "i2_A": -9.411764705882353
+          }
+        },
+        "90": {
+          "inner": false,
+          "outer": false,
+          "energy": true,
+          "static": false,
+          "instantaneous": {
+            "modulation_ok": true,
+            "vb0_in_band": true,
+            "pre_orbit_ok": true,
+            "post_orbit_ok": true,
+            "pole_current_ok": true,
+            "band_headroom_now_V": 38.415214885922154,
+            "pass": true
+          },
+          "state": {
+            "Eb0_J": 8.768515405993746,
+            "vb0_V": 215.87890276113666,
+            "ib0_A": -9.297792448272778,
+            "pb0_W": -2007.1972318339099,
+            "Vdc0_V": 425.0,
+            "Pdc1_0_W": 2407.1972318339103,
+            "pac0_W": 4014.39446366782,
+            "u1_V": 170.7058823529412,
+            "u2_V": 170.47058823529412,
+            "i1_A": 14.117647058823529,
+            "i2_A": 9.411764705882353
+          }
+        }
+      },
+      "Cb_required_uF": {
+        "theta_a_sufficient": 309.560546875,
+        "theta_a_necessary": 289.1894531250001,
+        "theta_b_sufficient": 584.5703125,
+        "theta_b_necessary": 526.3671875000001,
+        "energy_sizing_plus_steady": 284.82421875000006,
+        "installed": 376.30125000000004
+      },
+      "monotone_in_dP": true
+    },
+    "steady": {
+      "Cb_min_steady_uF": 170.77371215820312,
+      "Cb_over_min": 2.203508053109475,
+      "orbit_vb_min_V": 180.678634771248,
+      "orbit_vb_max_V": 246.87072920863682,
+      "orbit_margin_J": 3.7589784563527546,
+      "Pdc1_pre_W": 2407.1972318339103,
+      "C2_limit_W": 2269.04296875
+    },
+    "timedomain": {
+      "conventional_theta_a": {
+        "Vdc_min": 417.44920451710414,
+        "Vdc_max": 431.60151251116963,
+        "I_pole_peak": 54.580735132362804,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "bus_violation": false,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "min_vN_headroom_V": 7.017205060189781,
+        "violation": false
+      },
+      "conventional_theta_b": {
+        "Vdc_min": 229.9688051285522,
+        "Vdc_max": 429.35089080997045,
+        "I_pole_peak": 51.311876431878176,
+        "sat_time_ms": 1.735000000000004,
+        "synth_time_ms": 0.0,
+        "bus_violation": true,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": 8.863333333333333,
+        "min_vN_headroom_V": -351.73124539936634,
+        "violation": true
+      },
+      "plan_theta_a": {
+        "Vdc_min": 417.44920451710414,
+        "Vdc_max": 431.60475874647466,
+        "I_pole_peak": 54.58421841714044,
+        "sat_time_ms": 0.0,
+        "synth_time_ms": 0.0,
+        "bus_violation": false,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "min_vN_headroom_V": 7.017205060189781,
+        "violation": false
+      }
+    },
+    "cap_penalty_pct": 84.80422409655077,
+    "slew_rows": [
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 30.0,
+        "Cb_uF": 376.30125000000004,
+        "slew_W_per_ms": 30.0,
+        "E_V": 170.0,
+        "C2_limit_W": 2269.04296875,
+        "worst_phase_deg": 0.0,
+        "conventional_W": 584.9876403808594,
+        "outer_W": 361.62872314453125,
+        "overestimate_W": 223.35891723632812,
+        "overestimate_pct": 38.18181818181818,
+        "phase_spread_outer_W": 143.58787536621094
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 60.0,
+        "Cb_uF": 376.30125000000004,
+        "slew_W_per_ms": 60.0,
+        "E_V": 170.0,
+        "C2_limit_W": 2269.04296875,
+        "worst_phase_deg": 90.0,
+        "conventional_W": 877.4814605712891,
+        "outer_W": 547.7611541748047,
+        "overestimate_W": 329.7203063964844,
+        "overestimate_pct": 37.57575757575758,
+        "phase_spread_outer_W": 186.13243103027344
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 121.0,
+        "Cb_uF": 376.30125000000004,
+        "slew_W_per_ms": 121.0,
+        "E_V": 170.0,
+        "C2_limit_W": 2269.04296875,
+        "worst_phase_deg": 198.0,
+        "conventional_W": 1095.5223083496094,
+        "outer_W": 611.5779876708984,
+        "overestimate_W": 483.94432067871094,
+        "overestimate_pct": 44.1747572815534,
+        "phase_spread_outer_W": 595.623779296875
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 241.0,
+        "Cb_uF": 376.30125000000004,
+        "slew_W_per_ms": 241.0,
+        "E_V": 170.0,
+        "C2_limit_W": 2269.04296875,
+        "worst_phase_deg": 252.0,
+        "conventional_W": 1707.1002960205078,
+        "outer_W": 1005.1151275634766,
+        "overestimate_W": 701.9851684570312,
+        "overestimate_pct": 41.12149532710281,
+        "phase_spread_outer_W": 1111.4765167236328
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 603.0,
+        "Cb_uF": 376.30125000000004,
+        "slew_W_per_ms": 603.0,
+        "E_V": 170.0,
+        "C2_limit_W": 2269.04296875,
+        "worst_phase_deg": 252.0,
+        "conventional_W": 2153.818130493164,
+        "outer_W": 1281.6547393798828,
+        "overestimate_W": 872.1633911132812,
+        "overestimate_pct": 40.49382716049383,
+        "phase_spread_outer_W": 1600.7389068603516
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 3016.0,
+        "Cb_uF": 376.30125000000004,
+        "slew_W_per_ms": 3016.0,
+        "E_V": 170.0,
+        "C2_limit_W": 2269.04296875,
+        "worst_phase_deg": 234.0,
+        "conventional_W": 2269.04296875,
+        "outer_W": 2371.8589782714844,
+        "overestimate_W": -102.81600952148438,
+        "overestimate_pct": -4.53125,
+        "phase_spread_outer_W": 350.9925842285156
+      }
+    ],
+    "params": {
+      "f": 60.0,
+      "Vdc_nom": 425.0,
+      "Vdc_min": 403.75,
+      "Vdc_max": 446.25,
+      "Cdc": 3e-05,
+      "E1": 170.0,
+      "E2": 170.0,
+      "phi2": 0.0,
+      "L1": 0.0005,
+      "R1": 0.05,
+      "L2": 0.0005,
+      "R2": 0.05,
+      "P1": 1200.0,
+      "P2_pre": 800.0,
+      "Pdc2": 400.0,
+      "Tr2": 0.001,
+      "Cb": 0.00037630125000000003,
+      "Lb": 0.001,
+      "Rb": 0.05,
+      "slew_dc1": 120637.15789784805,
+      "Pdc1_min": -6000.0,
+      "Pdc1_max": 6000.0,
+      "I_pole_max": 66.0,
+      "delta_in": 6.4,
+      "Ts": 8.333333333333333e-05,
+      "n_cycles": 8
+    },
+    "info": {
+      "name": "r120",
+      "P2_rated": 2400.0,
+      "rated_step_W": 1600.0,
+      "slew_bus_W_per_ms": 120.63715789784806,
+      "slew_fast_W_per_ms": 3015.928947446201,
+      "ramp_bus_ms": 13.262911924324612,
+      "ramp_fast_ms": 0.5305164769729845,
+      "modulation_index": 0.4
+    },
+    "G1_pass": true,
+    "fast_regime": {
+      "group": "DC1 slew (W/ms)",
+      "value": 3016.0,
+      "Cb_uF": 376.30125000000004,
+      "slew_W_per_ms": 3016.0,
+      "E_V": 170.0,
+      "C2_limit_W": 2269.04296875,
+      "worst_phase_deg": 234.0,
+      "conventional_W": 2269.04296875,
+      "outer_W": 2371.8589782714844,
+      "overestimate_W": -102.81600952148438,
+      "overestimate_pct": -4.53125,
+      "phase_spread_outer_W": 350.9925842285156
+    }
+  },
+  "r230": {
+    "worst": {
+      "phase_deg": 198,
+      "conventional_W": 2256.478500366211,
+      "outer_W": 1207.6927185058594,
+      "over_W": 1048.7857818603516,
+      "over_pct": 46.478873239436616
+    },
+    "pair": {
+      "theta_a_deg": 270.0,
+      "theta_b_deg": 90.0,
+      "dP_test_W": 1975.0,
+      "window_W": [
+        1620.8507537841797,
+        2330.6350708007812
+      ],
+      "theta_b_relaxation_V": 58.4765625,
+      "verdicts": {
+        "270": {
+          "inner": true,
+          "outer": true,
+          "energy": true,
+          "static": false,
+          "instantaneous": {
+            "modulation_ok": true,
+            "vb0_in_band": true,
+            "pre_orbit_ok": true,
+            "post_orbit_ok": true,
+            "pole_current_ok": true,
+            "band_headroom_now_V": 78.54959333896426,
+            "pass": true
+          },
+          "state": {
+            "Eb0_J": 21.77020369661763,
+            "vb0_V": 404.73113180050274,
+            "ib0_A": -9.914243708094444,
+            "pb0_W": -4012.6030769230774,
+            "Vdc0_V": 800.0,
+            "Pdc1_0_W": 4812.6030769230765,
+            "pac0_W": 8025.206153846154,
+            "u1_V": -326.1815384615385,
+            "u2_V": -325.7876923076923,
+            "i1_A": -14.76923076923077,
+            "i2_A": -9.846153846153847
+          }
+        },
+        "90": {
+          "inner": false,
+          "outer": false,
+          "energy": true,
+          "static": false,
+          "instantaneous": {
+            "modulation_ok": true,
+            "vb0_in_band": true,
+            "pre_orbit_ok": true,
+            "post_orbit_ok": true,
+            "pole_current_ok": true,
+            "band_headroom_now_V": 69.08732973795878,
+            "pass": true
+          },
+          "state": {
+            "Eb0_J": 21.770203696617635,
+            "vb0_V": 404.73113180050274,
+            "ib0_A": -9.914243708094444,
+            "pb0_W": -4012.6030769230774,
+            "Vdc0_V": 800.0,
+            "Pdc1_0_W": 4812.6030769230765,
+            "pac0_W": 8025.206153846154,
+            "u1_V": 326.1815384615385,
+            "u2_V": 325.7876923076923,
+            "i1_A": 14.76923076923077,
+            "i2_A": 9.846153846153847
+          }
+        }
+      },
+      "Cb_required_uF": {
+        "theta_a_sufficient": 225.16601562500006,
+        "theta_a_necessary": 209.16015625000003,
+        "theta_b_sufficient": 424.51171875000006,
+        "theta_b_necessary": 377.94921875000006,
+        "energy_sizing_plus_steady": 194.609375,
+        "installed": 265.8026248168945
+      },
+      "monotone_in_dP": true
+    },
+    "steady": {
+      "Cb_min_steady_uF": 120.25344848632814,
+      "Cb_over_min": 2.2103534506714304,
+      "orbit_vb_min_V": 341.51943241949294,
+      "orbit_vb_max_V": 461.256027417671,
+      "orbit_margin_J": 8.750368159042846,
+      "Pdc1_pre_W": 4812.6030769230765,
+      "C2_limit_W": 4520.01953125
+    },
+    "timedomain": {
+      "conventional_theta_a": {
+        "Vdc_min": 782.670185926354,
+        "Vdc_max": 810.5947373412627,
+        "I_pole_peak": 56.858728737602604,
+        "sat_time_ms": 0.3550000000000006,
+        "synth_time_ms": 0.0,
+        "bus_violation": false,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "min_vN_headroom_V": -16.61035294714452,
+        "violation": false
+      },
+      "conventional_theta_b": {
+        "Vdc_min": 480.4424666707715,
+        "Vdc_max": 807.8858194937917,
+        "I_pole_peak": 55.32481154430139,
+        "sat_time_ms": 1.8650000000000044,
+        "synth_time_ms": 0.0,
+        "bus_violation": true,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": 10.555000000000001,
+        "min_vN_headroom_V": -847.1054826967904,
+        "violation": true
+      },
+      "plan_theta_a": {
+        "Vdc_min": 782.670185926354,
+        "Vdc_max": 810.6162105979923,
+        "I_pole_peak": 56.874467390278696,
+        "sat_time_ms": 0.3550000000000006,
+        "synth_time_ms": 0.0,
+        "bus_violation": false,
+        "current_violation": false,
+        "synth_violation": false,
+        "t_violation_ms": null,
+        "min_vN_headroom_V": -16.61035294714452,
+        "violation": false
+      }
+    },
+    "cap_penalty_pct": 94.20915295062227,
+    "slew_rows": [
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 50.0,
+        "Cb_uF": 265.8026248168945,
+        "slew_W_per_ms": 50.0,
+        "E_V": 325.0,
+        "C2_limit_W": 4520.01953125,
+        "worst_phase_deg": 18.0,
+        "conventional_W": 1154.7237396240234,
+        "outer_W": 678.0029296875,
+        "overestimate_W": 476.72080993652344,
+        "overestimate_pct": 41.28440366972477,
+        "phase_spread_outer_W": 286.03248596191406
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 101.0,
+        "Cb_uF": 265.8026248168945,
+        "slew_W_per_ms": 101.0,
+        "E_V": 325.0,
+        "C2_limit_W": 4520.01953125,
+        "worst_phase_deg": 90.0,
+        "conventional_W": 1779.7576904296875,
+        "outer_W": 1080.5671691894531,
+        "overestimate_W": 699.1905212402344,
+        "overestimate_pct": 39.285714285714285,
+        "phase_spread_outer_W": 370.78285217285156
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 201.0,
+        "Cb_uF": 265.8026248168945,
+        "slew_W_per_ms": 201.0,
+        "E_V": 325.0,
+        "C2_limit_W": 4520.01953125,
+        "worst_phase_deg": 198.0,
+        "conventional_W": 2256.478500366211,
+        "outer_W": 1207.6927185058594,
+        "overestimate_W": 1048.7857818603516,
+        "overestimate_pct": 46.478873239436616,
+        "phase_spread_outer_W": 1197.0989227294922
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 402.0,
+        "Cb_uF": 265.8026248168945,
+        "slew_W_per_ms": 402.0,
+        "E_V": 325.0,
+        "C2_limit_W": 4520.01953125,
+        "worst_phase_deg": 252.0,
+        "conventional_W": 3421.7960357666016,
+        "outer_W": 1928.0708312988281,
+        "overestimate_W": 1493.7252044677734,
+        "overestimate_pct": 43.65325077399381,
+        "phase_spread_outer_W": 2288.2598876953125
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 1005.0,
+        "Cb_uF": 265.8026248168945,
+        "slew_W_per_ms": 1005.0,
+        "E_V": 325.0,
+        "C2_limit_W": 4520.01953125,
+        "worst_phase_deg": 252.0,
+        "conventional_W": 4279.893493652344,
+        "outer_W": 2425.979232788086,
+        "overestimate_W": 1853.9142608642578,
+        "overestimate_pct": 43.31683168316832,
+        "phase_spread_outer_W": 3262.8890991210938
+      },
+      {
+        "group": "DC1 slew (W/ms)",
+        "value": 6032.0,
+        "Cb_uF": 265.8026248168945,
+        "slew_W_per_ms": 6032.0,
+        "E_V": 325.0,
+        "C2_limit_W": 4520.01953125,
+        "worst_phase_deg": 270.0,
+        "conventional_W": 4520.01953125,
+        "outer_W": 4671.86393737793,
+        "overestimate_W": -151.8444061279297,
+        "overestimate_pct": -3.359375,
+        "phase_spread_outer_W": 752.1595001220703
+      }
+    ],
+    "params": {
+      "f": 50.0,
+      "Vdc_nom": 800.0,
+      "Vdc_min": 760.0,
+      "Vdc_max": 840.0,
+      "Cdc": 2e-05,
+      "E1": 325.0,
+      "E2": 325.0,
+      "phi2": 0.0,
+      "L1": 0.0015,
+      "R1": 0.08,
+      "L2": 0.0015,
+      "R2": 0.08,
+      "P1": 2400.0,
+      "P2_pre": 1600.0,
+      "Pdc2": 800.0,
+      "Tr2": 0.001,
+      "Cb": 0.0002658026248168945,
+      "Lb": 0.002,
+      "Rb": 0.08,
+      "slew_dc1": 201061.92982974678,
+      "Pdc1_min": -12000.0,
+      "Pdc1_max": 12000.0,
+      "I_pole_max": 69.0,
+      "delta_in": 12.0,
+      "Ts": 0.0001,
+      "n_cycles": 8
+    },
+    "info": {
+      "name": "r230",
+      "P2_rated": 4800.0,
+      "rated_step_W": 3200.0,
+      "slew_bus_W_per_ms": 201.0619298297468,
+      "slew_fast_W_per_ms": 6031.857894892402,
+      "ramp_bus_ms": 15.915494309189533,
+      "ramp_fast_ms": 0.5305164769729845,
+      "modulation_index": 0.40625
+    },
+    "G1_pass": true,
+    "fast_regime": {
+      "group": "DC1 slew (W/ms)",
+      "value": 6032.0,
+      "Cb_uF": 265.8026248168945,
+      "slew_W_per_ms": 6032.0,
+      "E_V": 325.0,
+      "C2_limit_W": 4520.01953125,
+      "worst_phase_deg": 270.0,
+      "conventional_W": 4520.01953125,
+      "outer_W": 4671.86393737793,
+      "overestimate_W": -151.8444061279297,
+      "overestimate_pct": -3.359375,
+      "phase_spread_outer_W": 752.1595001220703
+    }
+  },
+  "G1_pass": true
+}

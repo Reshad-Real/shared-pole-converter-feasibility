@@ -1,0 +1,542 @@
+{
+ "r120": {
+  "n_cases": 300,
+  "n_errors": 0,
+  "n_scored": 300,
+  "counts": {
+   "feasible": 85,
+   "infeasible": 198,
+   "unresolved": 17
+  },
+  "M1": {
+   "Cb": {
+    "n": 300,
+    "median_abs": 0.0034269809688378117,
+    "p95_abs": 0.008283274210431929,
+    "max_abs": 0.011097853717554784,
+    "mean": -0.001483990692535418,
+    "limit": 0.05,
+    "passed": true
+   },
+   "Lb": {
+    "n": 300,
+    "median_abs": 0.0040445219295694446,
+    "p95_abs": 0.011223812516044186,
+    "max_abs": 0.019987090356865633,
+    "mean": -0.0029691734466914745,
+    "limit": 0.025,
+    "passed": true
+   },
+   "E1": {
+    "n": 300,
+    "median_abs": 0.0027112231684210397,
+    "p95_abs": 0.0046744382414506186,
+    "max_abs": 0.004977214203806368,
+    "mean": -3.817144814307949e-05,
+    "limit": 0.025,
+    "passed": true
+   },
+   "E2": {
+    "n": 300,
+    "median_abs": 0.0024656381958355067,
+    "p95_abs": 0.004788087362337645,
+    "max_abs": 0.004989183422846821,
+    "mean": -0.00010189518336277422,
+    "limit": 0.025,
+    "passed": true
+   },
+   "slew_dc1": {
+    "n": 300,
+    "median_abs": 0.007612557222016647,
+    "p95_abs": 0.020586977936263913,
+    "max_abs": 0.04331777009708304,
+    "mean": -0.000987130562338162,
+    "limit": 0.075,
+    "passed": true
+   },
+   "Rb": {
+    "n": 300,
+    "median_abs": 1.1165344123896366,
+    "p95_abs": 4.19212076956472,
+    "max_abs": 6.740288044784832,
+    "mean": 0.3891938822434357,
+    "limit": null,
+    "passed": null
+   },
+   "Cdc": {
+    "n": 21,
+    "median_abs": 4.482373148198071,
+    "p95_abs": 25.905401730116168,
+    "max_abs": 28.465616088434746,
+    "mean": 7.687781126369125,
+    "limit": null,
+    "passed": null
+   }
+  },
+  "clamped": 0,
+  "calibration_runs_failed": 0,
+  "TW1": true,
+  "M2": {
+   "N": {
+    "mae": 0.053609094619750976,
+    "p95_abs": 0.11522483825683594,
+    "bias": 0.004003324508666992,
+    "share_optimistic": 0.49333333333333335,
+    "max_abs": 0.16840553283691406
+   },
+   "NE": {
+    "mae": 0.04543994903564453,
+    "p95_abs": 0.1019296646118164,
+    "bias": 0.00047271728515625,
+    "share_optimistic": 0.45666666666666667,
+    "max_abs": 0.14624691009521484
+   },
+   "T": {
+    "mae": 0.0031169795989990233,
+    "p95_abs": 0.008863449096679688,
+    "bias": -0.0009897518157958984,
+    "share_optimistic": 0.023333333333333334,
+    "max_abs": 0.013295173645019531
+   }
+  },
+  "TW2": true,
+  "M3": {
+   "circuit_outer": {
+    "N": {
+     "false_feasible": 4,
+     "false_infeasible": 1,
+     "n_infeasible": 198,
+     "n_feasible": 85,
+     "ff_rate": 0.020202020202020204,
+     "fi_rate": 0.011764705882352941,
+     "total": 5
+    },
+    "NE": {
+     "false_feasible": 3,
+     "false_infeasible": 1,
+     "n_infeasible": 198,
+     "n_feasible": 85,
+     "ff_rate": 0.015151515151515152,
+     "fi_rate": 0.011764705882352941,
+     "total": 4
+    },
+    "T": {
+     "false_feasible": 0,
+     "false_infeasible": 0,
+     "n_infeasible": 198,
+     "n_feasible": 85,
+     "ff_rate": 0.0,
+     "fi_rate": 0.0,
+     "total": 0
+    }
+   },
+   "inner": {
+    "N": {
+     "false_feasible": 1,
+     "false_infeasible": 4,
+     "n_infeasible": 198,
+     "n_feasible": 85,
+     "ff_rate": 0.005050505050505051,
+     "fi_rate": 0.047058823529411764,
+     "total": 5
+    },
+    "NE": {
+     "false_feasible": 2,
+     "false_infeasible": 5,
+     "n_infeasible": 198,
+     "n_feasible": 85,
+     "ff_rate": 0.010101010101010102,
+     "fi_rate": 0.058823529411764705,
+     "total": 7
+    },
+    "T": {
+     "false_feasible": 0,
+     "false_infeasible": 0,
+     "n_infeasible": 198,
+     "n_feasible": 85,
+     "ff_rate": 0.0,
+     "fi_rate": 0.0,
+     "total": 0
+    }
+   }
+  },
+  "TW3": true,
+  "M4": {
+   "NE": {
+    "feasible_held": 80,
+    "feasible_violated": 0,
+    "feasible_rejected": 5,
+    "held_share_of_feasible": 0.9411764705882353,
+    "admitted_resolved": 82,
+    "admitted_violated": 2,
+    "violated_share_of_admitted": 0.024390243902439025
+   },
+   "T": {
+    "feasible_held": 84,
+    "feasible_violated": 1,
+    "feasible_rejected": 0,
+    "held_share_of_feasible": 0.9882352941176471,
+    "admitted_resolved": 85,
+    "admitted_violated": 1,
+    "violated_share_of_admitted": 0.011764705882352941
+   }
+  },
+  "TW4": true,
+  "M5a": {
+   "alarm_aged": 1.0,
+   "alarm_unaged": 0.0,
+   "residual_unaged_median_V": 0.2314522858541857,
+   "residual_aged_median_V": 1.140786733670563,
+   "threshold_median_V": 0.6911438395316373,
+   "aged_runs_failed": 0
+  },
+  "TW5": true,
+  "M5b": {
+   "counts": {
+    "feasible": 80,
+    "infeasible": 210,
+    "unresolved": 10
+   },
+   "circuit_outer": {
+    "N": {
+     "false_feasible": 11,
+     "false_infeasible": 0,
+     "n_infeasible": 210,
+     "n_feasible": 80,
+     "ff_rate": 0.05238095238095238,
+     "fi_rate": 0.0,
+     "total": 11
+    },
+    "stale": {
+     "false_feasible": 11,
+     "false_infeasible": 0,
+     "n_infeasible": 210,
+     "n_feasible": 80,
+     "ff_rate": 0.05238095238095238,
+     "fi_rate": 0.0,
+     "total": 11
+    },
+    "recal": {
+     "false_feasible": 0,
+     "false_infeasible": 0,
+     "n_infeasible": 210,
+     "n_feasible": 80,
+     "ff_rate": 0.0,
+     "fi_rate": 0.0,
+     "total": 0
+    }
+   },
+   "inner": {
+    "N": {
+     "false_feasible": 5,
+     "false_infeasible": 1,
+     "n_infeasible": 210,
+     "n_feasible": 80,
+     "ff_rate": 0.023809523809523808,
+     "fi_rate": 0.0125,
+     "total": 6
+    },
+    "stale": {
+     "false_feasible": 0,
+     "false_infeasible": 0,
+     "n_infeasible": 210,
+     "n_feasible": 80,
+     "ff_rate": 0.0,
+     "fi_rate": 0.0,
+     "total": 0
+    },
+    "recal": {
+     "false_feasible": 0,
+     "false_infeasible": 0,
+     "n_infeasible": 210,
+     "n_feasible": 80,
+     "ff_rate": 0.0,
+     "fi_rate": 0.0,
+     "total": 0
+    }
+   }
+  },
+  "M5b_recal_param_p95": {
+   "Cb": 0.008325949503848696,
+   "Lb": 0.016794103364071184,
+   "E1": 0.0046849731396961134,
+   "E2": 0.004789384351814296,
+   "slew_dc1": 0.020487426832814296
+  },
+  "M6": {
+   "t_identify_median_s": 0.0014024972915649414,
+   "t_verdicts_median_s": 11.062785863876343,
+   "t_case_median_s": 83.89398694038391
+  }
+ },
+ "r230": {
+  "n_cases": 300,
+  "n_errors": 0,
+  "n_scored": 300,
+  "counts": {
+   "feasible": 89,
+   "infeasible": 186,
+   "unresolved": 25
+  },
+  "M1": {
+   "Cb": {
+    "n": 300,
+    "median_abs": 0.002801301599515249,
+    "p95_abs": 0.007882761672140071,
+    "max_abs": 0.011305429988309967,
+    "mean": -0.0009133680178635328,
+    "limit": 0.05,
+    "passed": true
+   },
+   "Lb": {
+    "n": 300,
+    "median_abs": 0.007451882206244376,
+    "p95_abs": 0.021905048500226412,
+    "max_abs": 0.03606931274391123,
+    "mean": -0.001066872210212978,
+    "limit": 0.025,
+    "passed": true
+   },
+   "E1": {
+    "n": 300,
+    "median_abs": 0.002321264668128986,
+    "p95_abs": 0.004719041262362722,
+    "max_abs": 0.004988641034751162,
+    "mean": 9.578157639357765e-05,
+    "limit": 0.025,
+    "passed": true
+   },
+   "E2": {
+    "n": 300,
+    "median_abs": 0.0023716837618930064,
+    "p95_abs": 0.004675641754761062,
+    "max_abs": 0.004979719865278565,
+    "mean": -0.00010535161157758803,
+    "limit": 0.025,
+    "passed": true
+   },
+   "slew_dc1": {
+    "n": 300,
+    "median_abs": 0.006746469925848486,
+    "p95_abs": 0.020746046816519585,
+    "max_abs": 0.03186798432681537,
+    "mean": -0.0006940962418915198,
+    "limit": 0.075,
+    "passed": true
+   },
+   "Rb": {
+    "n": 300,
+    "median_abs": 1.023517396767787,
+    "p95_abs": 3.523863814705553,
+    "max_abs": 5.54310473498288,
+    "mean": 0.32999594271587,
+    "limit": null,
+    "passed": null
+   },
+   "Cdc": {
+    "n": 235,
+    "median_abs": 2.1298050964184827,
+    "p95_abs": 5.678604258837195,
+    "max_abs": 1014033391587153.6,
+    "mean": 4315035708884.22,
+    "limit": null,
+    "passed": null
+   }
+  },
+  "clamped": 0,
+  "calibration_runs_failed": 0,
+  "TW1": true,
+  "M2": {
+   "N": {
+    "mae": 0.05251285711924235,
+    "p95_abs": 0.12359428405761719,
+    "bias": 0.0031045707066853843,
+    "share_optimistic": 0.44666666666666666,
+    "max_abs": 0.17656326293945312
+   },
+   "NE": {
+    "mae": 0.04275773684183756,
+    "p95_abs": 0.09710979461669922,
+    "bias": 0.001206515630086263,
+    "share_optimistic": 0.45,
+    "max_abs": 0.12800836563110352
+   },
+   "T": {
+    "mae": 0.003310561180114746,
+    "p95_abs": 0.008828163146972656,
+    "bias": -0.0009858115514119466,
+    "share_optimistic": 0.03,
+    "max_abs": 0.017656326293945312
+   }
+  },
+  "TW2": true,
+  "M3": {
+   "circuit_outer": {
+    "N": {
+     "false_feasible": 9,
+     "false_infeasible": 2,
+     "n_infeasible": 186,
+     "n_feasible": 89,
+     "ff_rate": 0.04838709677419355,
+     "fi_rate": 0.02247191011235955,
+     "total": 11
+    },
+    "NE": {
+     "false_feasible": 4,
+     "false_infeasible": 1,
+     "n_infeasible": 186,
+     "n_feasible": 89,
+     "ff_rate": 0.021505376344086023,
+     "fi_rate": 0.011235955056179775,
+     "total": 5
+    },
+    "T": {
+     "false_feasible": 1,
+     "false_infeasible": 0,
+     "n_infeasible": 186,
+     "n_feasible": 89,
+     "ff_rate": 0.005376344086021506,
+     "fi_rate": 0.0,
+     "total": 1
+    }
+   },
+   "inner": {
+    "N": {
+     "false_feasible": 3,
+     "false_infeasible": 5,
+     "n_infeasible": 186,
+     "n_feasible": 89,
+     "ff_rate": 0.016129032258064516,
+     "fi_rate": 0.056179775280898875,
+     "total": 8
+    },
+    "NE": {
+     "false_feasible": 2,
+     "false_infeasible": 6,
+     "n_infeasible": 186,
+     "n_feasible": 89,
+     "ff_rate": 0.010752688172043012,
+     "fi_rate": 0.06741573033707865,
+     "total": 8
+    },
+    "T": {
+     "false_feasible": 0,
+     "false_infeasible": 0,
+     "n_infeasible": 186,
+     "n_feasible": 89,
+     "ff_rate": 0.0,
+     "fi_rate": 0.0,
+     "total": 0
+    }
+   }
+  },
+  "TW3": true,
+  "M4": {
+   "NE": {
+    "feasible_held": 83,
+    "feasible_violated": 0,
+    "feasible_rejected": 6,
+    "held_share_of_feasible": 0.9325842696629213,
+    "admitted_resolved": 85,
+    "admitted_violated": 2,
+    "violated_share_of_admitted": 0.023529411764705882
+   },
+   "T": {
+    "feasible_held": 89,
+    "feasible_violated": 0,
+    "feasible_rejected": 0,
+    "held_share_of_feasible": 1.0,
+    "admitted_resolved": 89,
+    "admitted_violated": 0,
+    "violated_share_of_admitted": 0.0
+   }
+  },
+  "TW4": true,
+  "M5a": {
+   "alarm_aged": 1.0,
+   "alarm_unaged": 0.0,
+   "residual_unaged_median_V": 0.4078793659001885,
+   "residual_aged_median_V": 1.8130462937179144,
+   "threshold_median_V": 1.2220540737015078,
+   "aged_runs_failed": 0
+  },
+  "TW5": true,
+  "M5b": {
+   "counts": {
+    "feasible": 79,
+    "infeasible": 201,
+    "unresolved": 20
+   },
+   "circuit_outer": {
+    "N": {
+     "false_feasible": 18,
+     "false_infeasible": 0,
+     "n_infeasible": 201,
+     "n_feasible": 79,
+     "ff_rate": 0.08955223880597014,
+     "fi_rate": 0.0,
+     "total": 18
+    },
+    "stale": {
+     "false_feasible": 17,
+     "false_infeasible": 0,
+     "n_infeasible": 201,
+     "n_feasible": 79,
+     "ff_rate": 0.0845771144278607,
+     "fi_rate": 0.0,
+     "total": 17
+    },
+    "recal": {
+     "false_feasible": 1,
+     "false_infeasible": 2,
+     "n_infeasible": 201,
+     "n_feasible": 79,
+     "ff_rate": 0.004975124378109453,
+     "fi_rate": 0.02531645569620253,
+     "total": 3
+    }
+   },
+   "inner": {
+    "N": {
+     "false_feasible": 7,
+     "false_infeasible": 2,
+     "n_infeasible": 201,
+     "n_feasible": 79,
+     "ff_rate": 0.03482587064676617,
+     "fi_rate": 0.02531645569620253,
+     "total": 9
+    },
+    "stale": {
+     "false_feasible": 2,
+     "false_infeasible": 0,
+     "n_infeasible": 201,
+     "n_feasible": 79,
+     "ff_rate": 0.009950248756218905,
+     "fi_rate": 0.0,
+     "total": 2
+    },
+    "recal": {
+     "false_feasible": 0,
+     "false_infeasible": 2,
+     "n_infeasible": 201,
+     "n_feasible": 79,
+     "ff_rate": 0.0,
+     "fi_rate": 0.02531645569620253,
+     "total": 2
+    }
+   }
+  },
+  "M5b_recal_param_p95": {
+   "Cb": 0.008116956493592571,
+   "Lb": 0.026697471998497847,
+   "E1": 0.004750062622805295,
+   "E2": 0.004698417244648856,
+   "slew_dc1": 0.020048381074493457
+  },
+  "M6": {
+   "t_identify_median_s": 0.0016794204711914062,
+   "t_verdicts_median_s": 13.897374391555786,
+   "t_case_median_s": 95.78055787086487
+  }
+ }
+}

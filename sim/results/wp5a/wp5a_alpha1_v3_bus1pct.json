@@ -1,0 +1,82 @@
+{
+ "suff": [
+  {
+   "id": 46,
+   "rating": "r120",
+   "m": 0.4,
+   "ramp_ms": null,
+   "worst_deg": 30.0,
+   "alpha": 1.0,
+   "cb_suff_c": 0.0011351290796249365,
+   "raises": 2,
+   "calls": 29,
+   "phases_certified": [
+    30.0,
+    75.0,
+    120.0,
+    165.0,
+    210.0,
+    255.0,
+    300.0,
+    345.0
+   ],
+   "note": "",
+   "seconds": 782.755913734436
+  },
+  {
+   "id": 100,
+   "rating": "r230",
+   "m": 0.4,
+   "ramp_ms": null,
+   "worst_deg": 30.0,
+   "alpha": 1.0,
+   "cb_suff_c": 0.0006006740946879798,
+   "raises": 0,
+   "calls": 14,
+   "phases_certified": [
+    30.0,
+    75.0,
+    120.0,
+    165.0,
+    210.0,
+    255.0,
+    300.0,
+    345.0
+   ],
+   "note": "",
+   "seconds": 359.25052189826965
+  }
+ ],
+ "verify": [
+  {
+   "rating": "r120",
+   "case": "plan_at_suff_circuit_alpha1",
+   "alpha": 1.0,
+   "cb": 0.0011351290796249365,
+   "phase_deg": 30.0,
+   "violation": false,
+   "t_violation_ms": null,
+   "bus_violation": false,
+   "current_violation": false,
+   "Vdc_min": 410.0862073744546,
+   "Vdc_max": 442.56034171777327,
+   "I_pole_peak": 61.51513875899713,
+   "plan_peak_iN": 64.02
+  },
+  {
+   "rating": "r230",
+   "case": "plan_at_suff_circuit_alpha1",
+   "alpha": 1.0,
+   "cb": 0.0006006740946879798,
+   "phase_deg": 30.0,
+   "violation": false,
+   "t_violation_ms": null,
+   "bus_violation": false,
+   "current_violation": false,
+   "Vdc_min": 782.8864357442648,
+   "Vdc_max": 838.0610068149525,
+   "I_pole_peak": 67.17576440080654,
+   "plan_peak_iN": 66.92999999999999
+  }
+ ]
+}
